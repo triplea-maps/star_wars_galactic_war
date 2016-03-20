@@ -1796,49 +1796,49 @@
     <technology>
     </technology>
 
-    <attatchmentList>
-        <attatchment name="relationshipTypeAttachment" attatchTo="Hostile" javaClass="games.strategy.triplea.attatchments.RelationshipTypeAttachment" type="relationship">
+    <attachmentList>
+        <attachment name="relationshipTypeAttachment" attachTo="Hostile" javaClass="games.strategy.triplea.attachments.RelationshipTypeAttachment" type="relationship">
             <option name="archeType" value="war"/>
-        </attatchment>
+        </attachment>
 
-        <attatchment name="playerAttatchment" attatchTo="Imperial-Remnant" javaClass="games.strategy.triplea.attatchments.PlayerAttachment" type="player">
+        <attachment name="playerAttachment" attachTo="Imperial-Remnant" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
             <option name="retainCapitalProduceNumber" value="0"/>
             <option name="retainCapitalNumber" value="1"/>
-        </attatchment>
-        <attatchment name="playerAttatchment" attatchTo="New-Republic" javaClass="games.strategy.triplea.attatchments.PlayerAttachment" type="player">
+        </attachment>
+        <attachment name="playerAttachment" attachTo="New-Republic" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
             <option name="retainCapitalProduceNumber" value="0"/>
             <option name="retainCapitalNumber" value="1"/>
-        </attatchment>
-        <attatchment name="playerAttatchment" attatchTo="Corporate-Sector-Authority" javaClass="games.strategy.triplea.attatchments.PlayerAttachment" type="player">
+        </attachment>
+        <attachment name="playerAttachment" attachTo="Corporate-Sector-Authority" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
             <option name="retainCapitalProduceNumber" value="0"/>
             <option name="retainCapitalNumber" value="1"/>
-        </attatchment>
-        <attatchment name="playerAttatchment" attatchTo="Jedi-Order" javaClass="games.strategy.triplea.attatchments.PlayerAttachment" type="player">
+        </attachment>
+        <attachment name="playerAttachment" attachTo="Jedi-Order" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
             <option name="retainCapitalProduceNumber" value="0"/>
             <option name="retainCapitalNumber" value="1"/>
-        </attatchment>
-        <attatchment name="playerAttatchment" attatchTo="Hutt-Cartel" javaClass="games.strategy.triplea.attatchments.PlayerAttachment" type="player">
+        </attachment>
+        <attachment name="playerAttachment" attachTo="Hutt-Cartel" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
             <option name="retainCapitalProduceNumber" value="0"/>
             <option name="retainCapitalNumber" value="1"/>
-        </attatchment>
-        <attatchment name="playerAttatchment" attatchTo="Corellian-Security-Force" javaClass="games.strategy.triplea.attatchments.PlayerAttachment" type="player">
+        </attachment>
+        <attachment name="playerAttachment" attachTo="Corellian-Security-Force" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
             <option name="retainCapitalProduceNumber" value="0"/>
             <option name="retainCapitalNumber" value="1"/>
-        </attatchment>
-        <attatchment name="playerAttatchment" attatchTo="Black-Sun" javaClass="games.strategy.triplea.attatchments.PlayerAttachment" type="player">
+        </attachment>
+        <attachment name="playerAttachment" attachTo="Black-Sun" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
             <option name="retainCapitalProduceNumber" value="0"/>
             <option name="retainCapitalNumber" value="1"/>
-        </attatchment>
-        <attatchment name="playerAttatchment" attatchTo="Mandalorians" javaClass="games.strategy.triplea.attatchments.PlayerAttachment" type="player">
+        </attachment>
+        <attachment name="playerAttachment" attachTo="Mandalorians" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
             <option name="retainCapitalProduceNumber" value="0"/>
             <option name="retainCapitalNumber" value="1"/>
-        </attatchment>
-        <attatchment name="playerAttatchment" attatchTo="AI-Locals" javaClass="games.strategy.triplea.attatchments.PlayerAttachment" type="player">
+        </attachment>
+        <attachment name="playerAttachment" attachTo="AI-Locals" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
             <option name="retainCapitalProduceNumber" value="0"/>
             <option name="retainCapitalNumber" value="1"/>
-        </attatchment>
+        </attachment>
         
-        <attatchment name="unitAttatchment" attatchTo="A-Wing-Squadron" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        <attachment name="unitAttachment" attachTo="A-Wing-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
             <option name="carrierCost" value="2"/>
             <option name="defense" value="4"/>
@@ -1849,8 +1849,8 @@
             <option name="airAttack" value="4"/>
             <option name="airDefense" value="4"/>
             <option name="movement" value="10"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="ARC170-Heavy-Squadron" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="ARC170-Heavy-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="4"/>
             <option name="bombingBonus" value="2"/>
             <option name="carrierCost" value="2"/>
@@ -1863,8 +1863,8 @@
             <option name="airDefense" value="3"/>
             <option name="isStrategicBomber" value="true"/>
             <option name="movement" value="10"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Acclamator-Assault-Ship" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Acclamator-Assault-Ship" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
             <option name="canBombard" value="true"/>
             <option name="carrierCapacity" value="9"/>
@@ -1872,15 +1872,15 @@
             <option name="isSea" value="true"/>
             <option name="movement" value="2"/>
             <option name="transportCapacity" value="20"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Action-Transport" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Action-Transport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
             <option name="defense" value="1"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="3"/>
             <option name="transportCapacity" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Aethersprite-Squadron" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Aethersprite-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
             <option name="carrierCost" value="1"/>
             <option name="defense" value="2"/>
@@ -1891,8 +1891,8 @@
             <option name="airAttack" value="2"/>
             <option name="airDefense" value="2"/>
             <option name="movement" value="4"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Aggressor-Destroyer" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Aggressor-Destroyer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="5"/>
             <option name="canBombard" value="true"/>
             <option name="carrierCapacity" value="6"/>
@@ -1901,112 +1901,112 @@
             <option name="hitPoints" value="2"/>
             <option name="movement" value="2"/>
             <option name="transportCapacity" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Alderaanian-War-Frigate" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Alderaanian-War-Frigate" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
             <option name="defense" value="3"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="3"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Anti-Air-Tower" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Anti-Air-Tower" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="isConstruction" value="true"/>
             <option name="constructionType" value="Anti-Air-Tower"/>
             <option name="constructionsPerTerrPerTypePerTurn" value="1"/>
             <option name="maxConstructionsPerTypePerTerr" value="1"/>
             <option name="isAA" value="true"/>
             <option name="movement" value="0"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Armor-Regiment" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Armor-Regiment" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillery" value="true"/>
             <option name="attack" value="4"/>
             <option name="canBlitz" value="true"/>
             <option name="defense" value="1"/>
             <option name="movement" value="3"/>
             <option name="transportCost" value="3"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Armored-Mercenaries" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Armored-Mercenaries" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillery" value="true"/>
             <option name="attack" value="3"/>
             <option name="canBlitz" value="true"/>
             <option name="defense" value="2"/>
             <option name="movement" value="2"/>
             <option name="transportCost" value="3"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Armored-Police-Units" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Armored-Police-Units" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillery" value="true"/>
             <option name="attack" value="2"/>
             <option name="canBlitz" value="true"/>
             <option name="defense" value="3"/>
             <option name="movement" value="3"/>
             <option name="transportCost" value="3"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Army-Regiment" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Army-Regiment" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillerySupportable" value="true"/>
             <option name="attack" value="2"/>
             <option name="defense" value="3"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
             <option name="transportCost" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Army-Troopers" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Army-Troopers" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillerySupportable" value="true"/>
             <option name="attack" value="2"/>
             <option name="defense" value="3"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
             <option name="transportCost" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Artillery-Regiment" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Artillery-Regiment" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillery" value="true"/>
             <option name="attack" value="2"/>
             <option name="defense" value="1"/>
             <option name="movement" value="1"/>
             <option name="transportCost" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Assassin-Droid" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Assassin-Droid" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillery" value="true"/>
             <option name="attack" value="1"/>
             <option name="defense" value="1"/>
             <option name="movement" value="3"/>
             <option name="transportCost" value="1"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Assault-Frigate" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Assault-Frigate" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
             <option name="defense" value="4"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="2"/>
             <option name="transportCapacity" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Beroya-Cruiser" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Beroya-Cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="4"/>
             <option name="canBombard" value="true"/>
             <option name="defense" value="3"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="2"/>
             <option name="transportCapacity" value="4"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Bothan-Assault-Cruiser" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Bothan-Assault-Cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
             <option name="carrierCapacity" value="4"/>
             <option name="defense" value="2"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Buccaneer-Corvette" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Buccaneer-Corvette" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
             <option name="defense" value="2"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="3"/>
             <option name="transportCapacity" value="3"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Bulk-Freighter" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Bulk-Freighter" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
             <option name="defense" value="1"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="3"/>
             <option name="transportCapacity" value="4"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Bulwark-Cruiser" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Bulwark-Cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="5"/>
             <option name="canBombard" value="true"/>
             <option name="carrierCapacity" value="20"/>
@@ -2015,16 +2015,16 @@
             <option name="hitPoints" value="2"/>
             <option name="movement" value="2"/>
             <option name="transportCapacity" value="20"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="CC-9600-Frigate" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="CC-9600-Frigate" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
             <option name="canBombard" value="true"/>
             <option name="defense" value="4"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="2"/>
             <option name="transportCapacity" value="10"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Calamari-Cruiser" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Calamari-Cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="4"/>
             <option name="canBombard" value="true"/>
             <option name="carrierCapacity" value="6"/>
@@ -2032,97 +2032,97 @@
             <option name="isSea" value="true"/>
             <option name="movement" value="2"/>
             <option name="transportCapacity" value="5"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Cargo-Transport" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Cargo-Transport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
             <option name="defense" value="1"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="4"/>
             <option name="transportCapacity" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Carrack-Cruiser" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Carrack-Cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
             <option name="defense" value="2"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="3"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Charger-c70-Frigate" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Charger-c70-Frigate" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
             <option name="defense" value="2"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="3"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Combat-Speeder-Group" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Combat-Speeder-Group" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillery" value="true"/>
             <option name="attack" value="3"/>
             <option name="canBlitz" value="true"/>
             <option name="defense" value="2"/>
             <option name="movement" value="3"/>
             <option name="transportCost" value="3"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Container-Transport" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Container-Transport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
             <option name="defense" value="1"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="3"/>
             <option name="transportCapacity" value="6"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="CorSec-Officers" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="CorSec-Officers" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillerySupportable" value="true"/>
             <option name="attack" value="1"/>
             <option name="defense" value="3"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
             <option name="transportCost" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Corellian-Corvette" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Corellian-Corvette" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
             <option name="defense" value="2"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="3"/>
             <option name="transportCapacity" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Corellian-Gunship" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Corellian-Gunship" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
             <option name="defense" value="2"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="3"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Corellian-Heavy-Gunship" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Corellian-Heavy-Gunship" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
             <option name="defense" value="2"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="3"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Corona-Frigate" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Corona-Frigate" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
             <option name="carrierCapacity" value="6"/>
             <option name="defense" value="3"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Crusader-Corvette" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Crusader-Corvette" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
             <option name="defense" value="3"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="3"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Cutlass-Corvette" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Cutlass-Corvette" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
             <option name="defense" value="3"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="3"/>
             <option name="transportCapacity" value="3"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Dreadnaught-Cruiser" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Dreadnaught-Cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
             <option name="carrierCapacity" value="2"/>
             <option name="defense" value="3"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="2"/>
             <option name="transportCapacity" value="6"/>
-        </attatchment>
-        <!-- <attatchment name="unitAttatchment" attatchTo="Dunelizard-Squadron" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <!-- <attachment name="unitAttachment" attachTo="Dunelizard-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
             <option name="carrierCost" value="2"/>
             <option name="defense" value="1"/>
@@ -2133,70 +2133,70 @@
             <option name="airAttack" value="1"/>
             <option name="airDefense" value="1"/>
             <option name="movement" value="10"/>
-        </attatchment> -->
-        <attatchment name="unitAttatchment" attatchTo="Escort-Carrier" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment> -->
+        <attachment name="unitAttachment" attachTo="Escort-Carrier" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
             <option name="carrierCapacity" value="6"/>
             <option name="defense" value="1"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Espo-Combat-Troopers" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Espo-Combat-Troopers" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillerySupportable" value="true"/>
             <option name="attack" value="2"/>
             <option name="defense" value="3"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
             <option name="transportCost" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Espo-Repulsor-Units" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Espo-Repulsor-Units" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillery" value="true"/>
             <option name="attack" value="2"/>
             <option name="canBlitz" value="true"/>
             <option name="defense" value="2"/>
             <option name="movement" value="3"/>
             <option name="transportCost" value="3"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Espo-Security-Officers" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Espo-Security-Officers" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillerySupportable" value="true"/>
             <option name="attack" value="1"/>
             <option name="defense" value="3"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
             <option name="transportCost" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Espo-Walker-Units" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Espo-Walker-Units" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillery" value="true"/>
             <option name="attack" value="3"/>
             <option name="canBlitz" value="true"/>
             <option name="defense" value="1"/>
             <option name="movement" value="2"/>
             <option name="transportCost" value="3"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Etti-Patrol-Cruiser" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Etti-Patrol-Cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
             <option name="defense" value="1"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="4"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Ewoks" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Ewoks" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
             <option name="defense" value="3"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
             <option name="transportCost" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Factory" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Factory" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="isFactory" value="true"/>
             <option name="movement" value="0"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Fire-kraken-Corvette" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Fire-kraken-Corvette" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
             <option name="defense" value="1"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="4"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Firespray-Squadron" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Firespray-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
             <option name="carrierCost" value="2"/>
             <option name="defense" value="2"/>
@@ -2207,22 +2207,22 @@
             <option name="airAttack" value="2"/>
             <option name="airDefense" value="2"/>
             <option name="movement" value="10"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Firestorm-Frigate" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Firestorm-Frigate" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
             <option name="defense" value="2"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="3"/>
             <option name="transportCapacity" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Fleet-Carrier" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Fleet-Carrier" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
             <option name="carrierCapacity" value="8"/>
             <option name="defense" value="1"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Fortification" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Fortification" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="isConstruction" value="true"/>
             <option name="constructionType" value="Fortification"/>
             <option name="constructionsPerTerrPerTypePerTurn" value="1"/>
@@ -2231,22 +2231,22 @@
             <option name="hitPoints" value="2"/>
             <option name="movement" value="0"/>
             <option name="repairsUnits" value="1:Fortification"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Gammorean-Guards" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Gammorean-Guards" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
             <option name="defense" value="3"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="3"/>
             <option name="transportCost" value="1"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Gammoreans" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Gammoreans" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
             <option name="defense" value="3"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
             <option name="transportCost" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Gladiator-Squadron" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Gladiator-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
             <option name="carrierCost" value="1"/>
             <option name="defense" value="3"/>
@@ -2257,14 +2257,14 @@
             <option name="airAttack" value="3"/>
             <option name="airDefense" value="3"/>
             <option name="movement" value="4"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Gozanti-Cruiser" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Gozanti-Cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
             <option name="defense" value="2"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="3"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="HLAF-500-Squadron" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="HLAF-500-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
             <option name="bombingBonus" value="2"/>
             <option name="carrierCost" value="2"/>
@@ -2277,24 +2277,24 @@
             <option name="airDefense" value="2"/>
             <option name="isStrategicBomber" value="true"/>
             <option name="movement" value="10"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Henchmen" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Henchmen" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillerySupportable" value="true"/>
             <option name="attack" value="2"/>
             <option name="defense" value="2"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
             <option name="transportCost" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Hutt-Expedition" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Hutt-Expedition" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillery" value="true"/>
             <option name="attack" value="5"/>
             <option name="canBlitz" value="true"/>
             <option name="defense" value="4"/>
             <option name="movement" value="3"/>
             <option name="transportCost" value="4"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="IRD-Fighter-Squadron" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="IRD-Fighter-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
             <option name="carrierCost" value="1"/>
             <option name="defense" value="2"/>
@@ -2305,8 +2305,8 @@
             <option name="airAttack" value="2"/>
             <option name="airDefense" value="2"/>
             <option name="movement" value="4"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Imperial-Star-Destroyer" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Imperial-Star-Destroyer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="5"/>
             <option name="canBombard" value="true"/>
             <option name="carrierCapacity" value="6"/>
@@ -2315,14 +2315,14 @@
             <option name="hitPoints" value="2"/>
             <option name="movement" value="2"/>
             <option name="transportCapacity" value="30"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Interceptor-Frigate" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Interceptor-Frigate" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
             <option name="defense" value="2"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Invincible-Cruiser" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Invincible-Cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
             <option name="canBombard" value="true"/>
             <option name="defense" value="3"/>
@@ -2330,15 +2330,15 @@
             <option name="hitPoints" value="2"/>
             <option name="movement" value="2"/>
             <option name="transportCapacity" value="15"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Jedi-Knight" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Jedi-Knight" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillery" value="true"/>
             <option name="attack" value="5"/>
             <option name="defense" value="5"/>
             <option name="movement" value="3"/>
             <option name="transportCost" value="1"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Keldabe-Battleship" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Keldabe-Battleship" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="5"/>
             <option name="canBombard" value="true"/>
             <option name="carrierCapacity" value="3"/>
@@ -2347,8 +2347,8 @@
             <option name="hitPoints" value="2"/>
             <option name="movement" value="2"/>
             <option name="transportCapacity" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Kihraxz-Squadron" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Kihraxz-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
             <option name="carrierCost" value="2"/>
             <option name="defense" value="3"/>
@@ -2359,8 +2359,8 @@
             <option name="airAttack" value="3"/>
             <option name="airDefense" value="3"/>
             <option name="movement" value="10"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Kimogila-Heavy-Squadron" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Kimogila-Heavy-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
             <option name="bombingBonus" value="2"/>
             <option name="carrierCost" value="2"/>
@@ -2373,8 +2373,8 @@
             <option name="airDefense" value="1"/>
             <option name="isStrategicBomber" value="true"/>
             <option name="movement" value="10"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Krayt-Cruiser" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Krayt-Cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="4"/>
             <option name="canBombard" value="true"/>
             <option name="carrierCapacity" value="4"/>
@@ -2383,8 +2383,8 @@
             <option name="hitPoints" value="2"/>
             <option name="movement" value="2"/>
             <option name="transportCapacity" value="7"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="LAF-250-Squadron" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="LAF-250-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
             <option name="carrierCost" value="2"/>
             <option name="defense" value="2"/>
@@ -2395,95 +2395,95 @@
             <option name="airAttack" value="2"/>
             <option name="airDefense" value="2"/>
             <option name="movement" value="10"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Lancer-Frigate" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Lancer-Frigate" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
             <option name="defense" value="2"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Law-Enforcement-Droids" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Law-Enforcement-Droids" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillerySupportable" value="true"/>
             <option name="attack" value="1"/>
             <option name="defense" value="1"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
             <option name="transportCost" value="1"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Local-Criminals" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Local-Criminals" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
             <option name="defense" value="2"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
             <option name="transportCost" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Local-Forces" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Local-Forces" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
             <option name="defense" value="3"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
             <option name="transportCost" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Mandalorian-Protectors" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Mandalorian-Protectors" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillerySupportable" value="true"/>
             <option name="attack" value="4"/>
             <option name="defense" value="2"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
             <option name="transportCost" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Mandalorian-Warriors" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Mandalorian-Warriors" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillerySupportable" value="true"/>
             <option name="attack" value="2"/>
             <option name="defense" value="3"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
             <option name="transportCost" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Marauder-Corvette" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Marauder-Corvette" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
             <option name="carrierCapacity" value="1"/>
             <option name="defense" value="2"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Mercenaries" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Mercenaries" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillerySupportable" value="true"/>
             <option name="attack" value="2"/>
             <option name="defense" value="2"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
             <option name="transportCost" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Minstrel-Cruiser" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Minstrel-Cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
             <option name="defense" value="2"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Mounted-Henchmen" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Mounted-Henchmen" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillerySupportable" value="true"/>
             <option name="attack" value="3"/>
             <option name="canBlitz" value="true"/>
             <option name="defense" value="1"/>
             <option name="movement" value="3"/>
             <option name="transportCost" value="3"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Mynock-Carrier" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Mynock-Carrier" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
             <option name="carrierCapacity" value="8"/>
             <option name="defense" value="1"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Nebulon-B-Frigate" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Nebulon-B-Frigate" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
             <option name="carrierCapacity" value="2"/>
             <option name="defense" value="3"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="P-Fighter-Squadron" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="P-Fighter-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
             <option name="carrierCost" value="2"/>
             <option name="defense" value="3"/>
@@ -2494,23 +2494,23 @@
             <option name="airAttack" value="3"/>
             <option name="airDefense" value="3"/>
             <option name="movement" value="4"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Pelta-Frigate" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Pelta-Frigate" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
             <option name="defense" value="2"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="3"/>
             <option name="transportCapacity" value="3"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Pirate-Ship" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Pirate-Ship" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
             <option name="carrierCapacity" value="2"/>
             <option name="defense" value="3"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="2"/>
             <option name="transportCapacity" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Pirate-Starfighters" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Pirate-Starfighters" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
             <option name="carrierCost" value="2"/>
             <option name="defense" value="2"/>
@@ -2521,15 +2521,15 @@
             <option name="airAttack" value="2"/>
             <option name="airDefense" value="2"/>
             <option name="movement" value="4"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Pirates" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Pirates" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
             <option name="defense" value="3"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
             <option name="transportCost" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Proficient-Cruiser" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Proficient-Cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="4"/>
             <option name="canBombard" value="true"/>
             <option name="carrierCapacity" value="4"/>
@@ -2538,8 +2538,8 @@
             <option name="hitPoints" value="2"/>
             <option name="movement" value="2"/>
             <option name="transportCapacity" value="8"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Providence-Destroyer" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Providence-Destroyer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="4"/>
             <option name="canBombard" value="true"/>
             <option name="carrierCapacity" value="2"/>
@@ -2547,8 +2547,8 @@
             <option name="isSea" value="true"/>
             <option name="movement" value="2"/>
             <option name="transportCapacity" value="15"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Pursuer-Heavy-Squadron" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Pursuer-Heavy-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
             <option name="bombingBonus" value="2"/>
             <option name="carrierCost" value="2"/>
@@ -2561,23 +2561,23 @@
             <option name="airDefense" value="3"/>
             <option name="isStrategicBomber" value="true"/>
             <option name="movement" value="10"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Repulsor-Regiment" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Repulsor-Regiment" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillery" value="true"/>
             <option name="attack" value="3"/>
             <option name="canBlitz" value="true"/>
             <option name="defense" value="2"/>
             <option name="movement" value="3"/>
             <option name="transportCost" value="3"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Saboteur" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Saboteur" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillery" value="true"/>
             <option name="attack" value="1"/>
             <option name="defense" value="1"/>
             <option name="movement" value="3"/>
             <option name="transportCost" value="1"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Scyk-Squadron" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Scyk-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
             <option name="carrierCost" value="2"/>
             <option name="defense" value="2"/>
@@ -2588,53 +2588,53 @@
             <option name="airAttack" value="2"/>
             <option name="airDefense" value="2"/>
             <option name="movement" value="10"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Space-Transport" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Space-Transport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
             <option name="defense" value="1"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="2"/>
             <option name="transportCapacity" value="8"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="SpecForce-Regiment" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="SpecForce-Regiment" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillerySupportable" value="true"/>
             <option name="attack" value="4"/>
             <option name="defense" value="2"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
             <option name="transportCost" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="SpecOps-Officers" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="SpecOps-Officers" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
             <option name="defense" value="2"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
             <option name="transportCost" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Speeder-Regiment" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Speeder-Regiment" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillery" value="true"/>
             <option name="attack" value="3"/>
             <option name="canBlitz" value="true"/>
             <option name="defense" value="2"/>
             <option name="movement" value="3"/>
             <option name="transportCost" value="3"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Star-Galleon" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Star-Galleon" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
             <option name="defense" value="2"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="2"/>
             <option name="transportCapacity" value="14"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Stormtroopers" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Stormtroopers" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillerySupportable" value="true"/>
             <option name="attack" value="4"/>
             <option name="defense" value="2"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
             <option name="transportCost" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Strike-Cruiser" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Strike-Cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
             <option name="canBombard" value="true"/>
             <option name="carrierCapacity" value="1"/>
@@ -2642,8 +2642,8 @@
             <option name="isSea" value="true"/>
             <option name="movement" value="2"/>
             <option name="transportCapacity" value="3"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Supa-Heavy-Squadron" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Supa-Heavy-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="4"/>
             <option name="bombingBonus" value="2"/>
             <option name="carrierCost" value="2"/>
@@ -2656,8 +2656,8 @@
             <option name="airDefense" value="2"/>
             <option name="isStrategicBomber" value="true"/>
             <option name="movement" value="10"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="TIE-Bomber-Squadron" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="TIE-Bomber-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="4"/>
             <option name="bombingBonus" value="2"/>
             <option name="carrierCost" value="1"/>
@@ -2670,8 +2670,8 @@
             <option name="airDefense" value="1"/>
             <option name="isStrategicBomber" value="true"/>
             <option name="movement" value="4"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="TIE-Fighter-Squadron" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="TIE-Fighter-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
             <option name="carrierCost" value="1"/>
             <option name="defense" value="2"/>
@@ -2682,8 +2682,8 @@
             <option name="airAttack" value="2"/>
             <option name="airDefense" value="2"/>
             <option name="movement" value="4"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="TIE-Interceptor-Squadron" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="TIE-Interceptor-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
             <option name="carrierCost" value="1"/>
             <option name="defense" value="3"/>
@@ -2694,32 +2694,32 @@
             <option name="airAttack" value="3"/>
             <option name="airDefense" value="3"/>
             <option name="movement" value="4"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Tank-Regiment" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Tank-Regiment" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillery" value="true"/>
             <option name="attack" value="4"/>
             <option name="canBlitz" value="true"/>
             <option name="defense" value="2"/>
             <option name="movement" value="3"/>
             <option name="transportCost" value="3"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Temple-Guards" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Temple-Guards" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillerySupportable" value="true"/>
             <option name="attack" value="2"/>
             <option name="defense" value="3"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
             <option name="transportCost" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Temple-Security-Forces" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Temple-Security-Forces" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillerySupportable" value="true"/>
             <option name="attack" value="2"/>
             <option name="defense" value="2"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
             <option name="transportCost" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Toscan-Heavy-Squadron" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Toscan-Heavy-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
             <option name="bombingBonus" value="2"/>
             <option name="carrierCost" value="2"/>
@@ -2732,15 +2732,15 @@
             <option name="airDefense" value="1"/>
             <option name="isStrategicBomber" value="true"/>
             <option name="movement" value="10"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Tusken-Raiders" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Tusken-Raiders" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
             <option name="defense" value="3"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
             <option name="transportCost" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Ubrikkian-Frigate" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Ubrikkian-Frigate" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
             <option name="canBombard" value="true"/>
             <option name="carrierCapacity" value="2"/>
@@ -2748,8 +2748,8 @@
             <option name="isSea" value="true"/>
             <option name="movement" value="2"/>
             <option name="transportCapacity" value="6"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="V19-Torrent-Squadron" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="V19-Torrent-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
             <option name="carrierCost" value="2"/>
             <option name="defense" value="2"/>
@@ -2760,8 +2760,8 @@
             <option name="airAttack" value="2"/>
             <option name="airDefense" value="2"/>
             <option name="movement" value="10"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Vaksai-Squadron" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Vaksai-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
             <option name="carrierCost" value="2"/>
             <option name="defense" value="2"/>
@@ -2772,8 +2772,8 @@
             <option name="airAttack" value="2"/>
             <option name="airDefense" value="2"/>
             <option name="movement" value="10"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Venator-Star-Destroyer" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Venator-Star-Destroyer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
             <option name="canBombard" value="true"/>
             <option name="carrierCapacity" value="15"/>
@@ -2782,8 +2782,8 @@
             <option name="hitPoints" value="2"/>
             <option name="movement" value="2"/>
             <option name="transportCapacity" value="7"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Victory-Star-Destroyer" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Victory-Star-Destroyer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="4"/>
             <option name="canBombard" value="true"/>
             <option name="carrierCapacity" value="2"/>
@@ -2791,23 +2791,23 @@
             <option name="isSea" value="true"/>
             <option name="movement" value="2"/>
             <option name="transportCapacity" value="7"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Walker-Regiment" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Walker-Regiment" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillery" value="true"/>
             <option name="attack" value="4"/>
             <option name="canBlitz" value="true"/>
             <option name="defense" value="1"/>
             <option name="movement" value="2"/>
             <option name="transportCost" value="3"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Wookiees" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Wookiees" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
             <option name="defense" value="3"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
             <option name="transportCost" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="X-Wing-Squadron" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="X-Wing-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
             <option name="carrierCost" value="2"/>
             <option name="defense" value="3"/>
@@ -2818,8 +2818,8 @@
             <option name="airAttack" value="3"/>
             <option name="airDefense" value="3"/>
             <option name="movement" value="10"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Y-Wing-Squadron" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Y-Wing-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="4"/>
             <option name="bombingBonus" value="2"/>
             <option name="carrierCost" value="2"/>
@@ -2832,274 +2832,274 @@
             <option name="airDefense" value="1"/>
             <option name="isStrategicBomber" value="true"/>
             <option name="movement" value="10"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="YV-929-Armed-Freighter" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="YV-929-Armed-Freighter" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
             <option name="defense" value="1"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="4"/>
-        </attatchment>
+        </attachment>
 
-        <attatchment name="territoryAttatchment" attatchTo="Bakura" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        <attachment name="territoryAttachment" attachTo="Bakura" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="20"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="Corellian-Security-Force"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Bastion" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Bastion" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="30"/>
             <option name="victoryCity" value="1"/>
             <option name="capital" value="Imperial-Remnant"/>
             <option name="originalOwner" value="Imperial-Remnant"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Bespin" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Bespin" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="20"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="Corporate-Sector-Authority"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Bothawui Coastal Areas" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Bothawui Coastal Areas" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="8"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="AI-Locals"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Bothawui Inlands" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Bothawui Inlands" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="7"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="AI-Locals"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Calamari" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Calamari" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="20"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="New-Republic"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Corellia Flatlands" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Corellia Flatlands" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="16"/>
             <option name="victoryCity" value="1"/>
             <option name="capital" value="Corellian-Security-Force"/>
             <option name="originalOwner" value="Corellian-Security-Force"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Corellia Hillside" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Corellia Hillside" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="14"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="Corellian-Security-Force"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Coruscant Factory District" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Coruscant Factory District" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="10"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="New-Republic"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Coruscant Residential Districts" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Coruscant Residential Districts" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="6"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="New-Republic"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Coruscant Senate District" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Coruscant Senate District" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="14"/>
             <option name="victoryCity" value="1"/>
             <option name="capital" value="New-Republic"/>
             <option name="originalOwner" value="New-Republic"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Dantooine Grasslands" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Dantooine Grasslands" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="10"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="AI-Locals"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Dantooine Mountains" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Dantooine Mountains" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="5"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="AI-Locals"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Duro Jungles" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Duro Jungles" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="8"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="AI-Locals"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Duro Wastelands" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Duro Wastelands" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="7"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="AI-Locals"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Endor Moon" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Endor Moon" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="15"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="AI-Locals"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Etti Mossy Plains" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Etti Mossy Plains" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="11"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="Corporate-Sector-Authority"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Etti Seaside" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Etti Seaside" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="19"/>
             <option name="victoryCity" value="1"/>
             <option name="capital" value="Corporate-Sector-Authority"/>
             <option name="originalOwner" value="Corporate-Sector-Authority"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Fondor Industrial Zones" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Fondor Industrial Zones" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="17"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="Black-Sun"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Fondor Wastelands" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Fondor Wastelands" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="13"/>
             <option name="victoryCity" value="1"/>
             <option name="capital" value="Black-Sun"/>
             <option name="originalOwner" value="Black-Sun"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Hoth" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Hoth" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="20"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="Mandalorians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Iridonia Acid Plains" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Iridonia Acid Plains" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="9"/>
             <option name="victoryCity" value="1"/>
             <option name="capital" value="AI-Locals"/>
             <option name="originalOwner" value="AI-Locals"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Iridonia Rainforests" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Iridonia Rainforests" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="6"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="AI-Locals"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Kashyyyk Forests" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Kashyyyk Forests" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="7"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="AI-Locals"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Kashyyyk Jungles" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Kashyyyk Jungles" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="8"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="AI-Locals"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Kessel" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Kessel" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="20"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="Black-Sun"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Kuat Countryside" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Kuat Countryside" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="4"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="Imperial-Remnant"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Kuat Drive Yards" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Kuat Drive Yards" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="16"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="Imperial-Remnant"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Mandalore Desert" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Mandalore Desert" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="15"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="Mandalorians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Mandalore Woods" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Mandalore Woods" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="15"/>
             <option name="victoryCity" value="1"/>
             <option name="capital" value="Mandalorians"/>
             <option name="originalOwner" value="Mandalorians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Naboo Plains" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Naboo Plains" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="20"/>
             <option name="victoryCity" value="1"/>
             <option name="capital" value="Jedi-Order"/>
             <option name="originalOwner" value="Jedi-Order"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Naboo Swamps" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Naboo Swamps" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="10"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="Jedi-Order"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Nal Hutta Barrens" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Nal Hutta Barrens" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="4"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="Hutt-Cartel"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Nal Hutta Marshlands" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Nal Hutta Marshlands" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="16"/>
             <option name="victoryCity" value="1"/>
             <option name="capital" value="Hutt-Cartel"/>
             <option name="originalOwner" value="Hutt-Cartel"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Nal Hutta Urban Zones" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Nal Hutta Urban Zones" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="10"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="Hutt-Cartel"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Nar Shaddaa North" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Nar Shaddaa North" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="8"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="Hutt-Cartel"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Nar Shaddaa South" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Nar Shaddaa South" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="7"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="Hutt-Cartel"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Rodia Jungles" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Rodia Jungles" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="6"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="AI-Locals"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Rodia Swamps" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Rodia Swamps" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="9"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="AI-Locals"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Sullust Caves" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Sullust Caves" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="7"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="AI-Locals"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Sullust Deserts" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Sullust Deserts" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="3"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="AI-Locals"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Sullust Mountains" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Sullust Mountains" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="5"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="AI-Locals"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Taris Industrial Zones" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Taris Industrial Zones" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="6"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="AI-Locals"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Taris Reconstruction Zones" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Taris Reconstruction Zones" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="3"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="AI-Locals"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Taris Residential Zones" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Taris Residential Zones" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="6"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="AI-Locals"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Tatooine" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Tatooine" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="15"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="AI-Locals"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Telos" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Telos" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="15"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="AI-Locals"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Yavin Moon" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Yavin Moon" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="20"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="Jedi-Order"/>
-        </attatchment>
+        </attachment>
 
-        <attatchment name="conditionAttachmentRemoveLocalsPUsEveryTurn" attatchTo="AI-Locals" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        <attachment name="conditionAttachmentRemoveLocalsPUsEveryTurn" attachTo="AI-Locals" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="1-+"/>
-        </attatchment>
-        <attatchment name="triggerAttachment_AI-Locals-have-no-PUs" attatchTo="AI-Locals" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachment_AI-Locals-have-no-PUs" attachTo="AI-Locals" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentRemoveLocalsPUsEveryTurn"/>
             <option name="resource" value="PUs"/>
             <option name="resourceCount" value="-1000"/>
             <option name="when" value="after:AI-LocalsEndTurn"/>
-        </attatchment>
-    </attatchmentList>
+        </attachment>
+    </attachmentList>
     <initialize>
         <ownerInitialize>
             <territoryOwner territory="Bakura" owner="Corellian-Security-Force"/>
