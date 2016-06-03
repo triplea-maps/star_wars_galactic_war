@@ -3,7 +3,7 @@
 <game>
     <info name="Star Wars: Galactic War (4 teams)" version="1.3"/>
     <loader javaClass="games.strategy.triplea.TripleA"/>
-    <triplea minimumVersion="1.8.0.9"/>
+    <triplea minimumVersion="1.9"/>
     <diceSides value="6"/>
 
     <map>
