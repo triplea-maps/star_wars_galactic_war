@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-    <info name="Star Wars: Galactic War (FFA)" version="1.3"/>
+    <info name="Star Wars: Galactic War (FFA)" version="1.11"/>
     <loader javaClass="games.strategy.triplea.TripleA"/>
     <triplea minimumVersion="1.9"/>
     <diceSides value="6"/>
@@ -1055,7 +1055,7 @@
 
     <production>
         <productionRule name="buyFirespray-Squadron_Mandalorians">
-            <cost resource="PUs" quantity="27"/>
+            <cost resource="PUs" quantity="31"/>
             <result resourceOrUnit="Firespray-Squadron" quantity="1"/>
         </productionRule>
         <productionRule name="buyTemple-Security-Forces_Jedi-Order">
@@ -1063,11 +1063,11 @@
             <result resourceOrUnit="Temple-Security-Forces" quantity="1"/>
         </productionRule>
         <productionRule name="buyAlderaanian-War-Frigate_Jedi-Order">
-            <cost resource="PUs" quantity="20"/>
+            <cost resource="PUs" quantity="17"/>
             <result resourceOrUnit="Alderaanian-War-Frigate" quantity="1"/>
         </productionRule>
         <productionRule name="buyCrusader-Corvette_Mandalorians">
-            <cost resource="PUs" quantity="20"/>
+            <cost resource="PUs" quantity="17"/>
             <result resourceOrUnit="Crusader-Corvette" quantity="1"/>
         </productionRule>
         <productionRule name="buyAnti-Air-Tower_Corellian-Security-Force">
@@ -1075,15 +1075,15 @@
             <result resourceOrUnit="Anti-Air-Tower" quantity="1"/>
         </productionRule>
         <productionRule name="buyCarrack-Cruiser_Imperial-Remnant">
-            <cost resource="PUs" quantity="20"/>
+            <cost resource="PUs" quantity="17"/>
             <result resourceOrUnit="Carrack-Cruiser" quantity="1"/>
         </productionRule>
         <productionRule name="buyFleet-Carrier_Mandalorians">
-            <cost resource="PUs" quantity="20"/>
+            <cost resource="PUs" quantity="14"/>
             <result resourceOrUnit="Fleet-Carrier" quantity="1"/>
         </productionRule>
         <productionRule name="buyCorellian-Corvette_New-Republic">
-            <cost resource="PUs" quantity="14"/>
+            <cost resource="PUs" quantity="15"/>
             <result resourceOrUnit="Corellian-Corvette" quantity="1"/>
         </productionRule>
         <productionRule name="buyFortification_Imperial-Remnant">
@@ -1091,31 +1091,31 @@
             <result resourceOrUnit="Fortification" quantity="1"/>
         </productionRule>
         <productionRule name="buySupa-Heavy-Squadron_Black-Sun">
-            <cost resource="PUs" quantity="32"/>
+            <cost resource="PUs" quantity="36"/>
             <result resourceOrUnit="Supa-Heavy-Squadron" quantity="1"/>
         </productionRule>
         <productionRule name="buyToscan-Heavy-Squadron_Corporate-Sector-Authority">
-            <cost resource="PUs" quantity="26"/>
+            <cost resource="PUs" quantity="32"/>
             <result resourceOrUnit="Toscan-Heavy-Squadron" quantity="1"/>
         </productionRule>
         <productionRule name="buyY-Wing-Squadron_New-Republic">
-            <cost resource="PUs" quantity="30"/>
+            <cost resource="PUs" quantity="35"/>
             <result resourceOrUnit="Y-Wing-Squadron" quantity="1"/>
         </productionRule>
         <productionRule name="buyYV-929-Armed-Freighter_Corellian-Security-Force">
-            <cost resource="PUs" quantity="11"/>
+            <cost resource="PUs" quantity="16"/>
             <result resourceOrUnit="YV-929-Armed-Freighter" quantity="1"/>
         </productionRule>
         <productionRule name="buyKihraxz-Squadron_Black-Sun">
-            <cost resource="PUs" quantity="26"/>
+            <cost resource="PUs" quantity="31"/>
             <result resourceOrUnit="Kihraxz-Squadron" quantity="1"/>
         </productionRule>
         <productionRule name="buyBulk-Freighter_Black-Sun">
-            <cost resource="PUs" quantity="12"/>
+            <cost resource="PUs" quantity="15"/>
             <result resourceOrUnit="Bulk-Freighter" quantity="1"/>
         </productionRule>
         <productionRule name="buyRepulsor-Regiment_Imperial-Remnant">
-            <cost resource="PUs" quantity="15"/>
+            <cost resource="PUs" quantity="18"/>
             <result resourceOrUnit="Repulsor-Regiment" quantity="1"/>
         </productionRule>
         <productionRule name="buyEscort-Carrier_Imperial-Remnant">
@@ -1123,15 +1123,15 @@
             <result resourceOrUnit="Escort-Carrier" quantity="1"/>
         </productionRule>
         <productionRule name="buyEtti-Patrol-Cruiser_Corporate-Sector-Authority">
-            <cost resource="PUs" quantity="11"/>
+            <cost resource="PUs" quantity="16"/>
             <result resourceOrUnit="Etti-Patrol-Cruiser" quantity="1"/>
         </productionRule>
         <productionRule name="buyArtillery-Regiment_Mandalorians">
-            <cost resource="PUs" quantity="11"/>
+            <cost resource="PUs" quantity="12"/>
             <result resourceOrUnit="Artillery-Regiment" quantity="1"/>
         </productionRule>
         <productionRule name="buyGozanti-Cruiser_Black-Sun">
-            <cost resource="PUs" quantity="12"/>
+            <cost resource="PUs" quantity="14"/>
             <result resourceOrUnit="Gozanti-Cruiser" quantity="1"/>
         </productionRule>
         <productionRule name="buyMinstrel-Cruiser_Hutt-Cartel">
@@ -1139,35 +1139,35 @@
             <result resourceOrUnit="Minstrel-Cruiser" quantity="1"/>
         </productionRule>
         <productionRule name="buyMandalorian-Protectors_Mandalorians">
-            <cost resource="PUs" quantity="17"/>
+            <cost resource="PUs" quantity="18"/>
             <result resourceOrUnit="Mandalorian-Protectors" quantity="1"/>
         </productionRule>
         <productionRule name="buyMynock-Carrier_Hutt-Cartel">
-            <cost resource="PUs" quantity="20"/>
+            <cost resource="PUs" quantity="14"/>
             <result resourceOrUnit="Mynock-Carrier" quantity="1"/>
         </productionRule>
         <productionRule name="buyStar-Galleon_Imperial-Remnant">
-            <cost resource="PUs" quantity="22"/>
+            <cost resource="PUs" quantity="18"/>
             <result resourceOrUnit="Star-Galleon" quantity="1"/>
         </productionRule>
         <productionRule name="buyTIE-Interceptor-Squadron_Imperial-Remnant">
-            <cost resource="PUs" quantity="18"/>
+            <cost resource="PUs" quantity="16"/>
             <result resourceOrUnit="TIE-Interceptor-Squadron" quantity="1"/>
         </productionRule>
         <productionRule name="buySpecForce-Regiment_New-Republic">
-            <cost resource="PUs" quantity="17"/>
+            <cost resource="PUs" quantity="18"/>
             <result resourceOrUnit="SpecForce-Regiment" quantity="1"/>
         </productionRule>
         <productionRule name="buyJedi-Knight_Jedi-Order">
-            <cost resource="PUs" quantity="28"/>
+            <cost resource="PUs" quantity="33"/>
             <result resourceOrUnit="Jedi-Knight" quantity="1"/>
         </productionRule>
         <productionRule name="buyVictory-Star-Destroyer_Corporate-Sector-Authority">
-            <cost resource="PUs" quantity="38"/>
+            <cost resource="PUs" quantity="33"/>
             <result resourceOrUnit="Victory-Star-Destroyer" quantity="1"/>
         </productionRule>
         <productionRule name="buyUbrikkian-Frigate_Hutt-Cartel">
-            <cost resource="PUs" quantity="29"/>
+            <cost resource="PUs" quantity="24"/>
             <result resourceOrUnit="Ubrikkian-Frigate" quantity="1"/>
         </productionRule>
         <productionRule name="buyMercenaries_Black-Sun">
@@ -1179,11 +1179,11 @@
             <result resourceOrUnit="Henchmen" quantity="1"/>
         </productionRule>
         <productionRule name="buyIRD-Fighter-Squadron_Corporate-Sector-Authority">
-            <cost resource="PUs" quantity="15"/>
+            <cost resource="PUs" quantity="14"/>
             <result resourceOrUnit="IRD-Fighter-Squadron" quantity="1"/>
         </productionRule>
         <productionRule name="buyV19-Torrent-Squadron_Jedi-Order">
-            <cost resource="PUs" quantity="27"/>
+            <cost resource="PUs" quantity="31"/>
             <result resourceOrUnit="V19-Torrent-Squadron" quantity="1"/>
         </productionRule>
         <productionRule name="buyFortification_Black-Sun">
@@ -1195,15 +1195,15 @@
             <result resourceOrUnit="Anti-Air-Tower" quantity="1"/>
         </productionRule>
         <productionRule name="buyCharger-c70-Frigate_Jedi-Order">
-            <cost resource="PUs" quantity="12"/>
+            <cost resource="PUs" quantity="14"/>
             <result resourceOrUnit="Charger-c70-Frigate" quantity="1"/>
         </productionRule>
         <productionRule name="buyHutt-Expedition_Hutt-Cartel">
-            <cost resource="PUs" quantity="22"/>
+            <cost resource="PUs" quantity="30"/>
             <result resourceOrUnit="Hutt-Expedition" quantity="1"/>
         </productionRule>
         <productionRule name="buyKimogila-Heavy-Squadron_Hutt-Cartel">
-            <cost resource="PUs" quantity="26"/>
+            <cost resource="PUs" quantity="32"/>
             <result resourceOrUnit="Kimogila-Heavy-Squadron" quantity="1"/>
         </productionRule>
         <productionRule name="buyAnti-Air-Tower_Jedi-Order">
@@ -1215,15 +1215,15 @@
             <result resourceOrUnit="Factory" quantity="1"/>
         </productionRule>
         <productionRule name="buyLaw-Enforcement-Droids_Corellian-Security-Force">
-            <cost resource="PUs" quantity="10"/>
+            <cost resource="PUs" quantity="11"/>
             <result resourceOrUnit="Law-Enforcement-Droids" quantity="1"/>
         </productionRule>
         <productionRule name="buyAethersprite-Squadron_Jedi-Order">
-            <cost resource="PUs" quantity="15"/>
+            <cost resource="PUs" quantity="14"/>
             <result resourceOrUnit="Aethersprite-Squadron" quantity="1"/>
         </productionRule>
         <productionRule name="buyFire-kraken-Corvette_Hutt-Cartel">
-            <cost resource="PUs" quantity="15"/>
+            <cost resource="PUs" quantity="17"/>
             <result resourceOrUnit="Fire-kraken-Corvette" quantity="1"/>
         </productionRule>
         <productionRule name="buyFortification_Corporate-Sector-Authority">
@@ -1235,7 +1235,7 @@
             <result resourceOrUnit="Fortification" quantity="1"/>
         </productionRule>
         <productionRule name="buyAggressor-Destroyer_Black-Sun">
-            <cost resource="PUs" quantity="51"/>
+            <cost resource="PUs" quantity="52"/>
             <result resourceOrUnit="Aggressor-Destroyer" quantity="1"/>
         </productionRule>
         <productionRule name="buyFortification_Corellian-Security-Force">
@@ -1243,27 +1243,27 @@
             <result resourceOrUnit="Fortification" quantity="1"/>
         </productionRule>
         <productionRule name="buyARC170-Heavy-Squadron_Jedi-Order">
-            <cost resource="PUs" quantity="35"/>
+            <cost resource="PUs" quantity="38"/>
             <result resourceOrUnit="ARC170-Heavy-Squadron" quantity="1"/>
         </productionRule>
         <productionRule name="buyProficient-Cruiser_Corellian-Security-Force">
-            <cost resource="PUs" quantity="54"/>
+            <cost resource="PUs" quantity="49"/>
             <result resourceOrUnit="Proficient-Cruiser" quantity="1"/>
         </productionRule>
         <productionRule name="buyTIE-Bomber-Squadron_Imperial-Remnant">
-            <cost resource="PUs" quantity="20"/>
+            <cost resource="PUs" quantity="18"/>
             <result resourceOrUnit="TIE-Bomber-Squadron" quantity="1"/>
         </productionRule>
         <productionRule name="buyCargo-Transport_Hutt-Cartel">
-            <cost resource="PUs" quantity="13"/>
+            <cost resource="PUs" quantity="17"/>
             <result resourceOrUnit="Cargo-Transport" quantity="1"/>
         </productionRule>
         <productionRule name="buyCombat-Speeder-Group_Jedi-Order">
-            <cost resource="PUs" quantity="15"/>
+            <cost resource="PUs" quantity="18"/>
             <result resourceOrUnit="Combat-Speeder-Group" quantity="1"/>
         </productionRule>
         <productionRule name="buyLocal-Criminals_Black-Sun">
-            <cost resource="PUs" quantity="10"/>
+            <cost resource="PUs" quantity="11"/>
             <result resourceOrUnit="Local-Criminals" quantity="1"/>
         </productionRule>
         <productionRule name="buyAnti-Air-Tower_Imperial-Remnant">
@@ -1279,11 +1279,11 @@
             <result resourceOrUnit="Anti-Air-Tower" quantity="1"/>
         </productionRule>
         <productionRule name="buyP-Fighter-Squadron_Corporate-Sector-Authority">
-            <cost resource="PUs" quantity="17"/>
+            <cost resource="PUs" quantity="16"/>
             <result resourceOrUnit="P-Fighter-Squadron" quantity="1"/>
         </productionRule>
         <productionRule name="buyMounted-Henchmen_Hutt-Cartel">
-            <cost resource="PUs" quantity="13"/>
+            <cost resource="PUs" quantity="17"/>
             <result resourceOrUnit="Mounted-Henchmen" quantity="1"/>
         </productionRule>
         <productionRule name="buyFactory_Corporate-Sector-Authority">
@@ -1291,7 +1291,7 @@
             <result resourceOrUnit="Factory" quantity="1"/>
         </productionRule>
         <productionRule name="buyArmor-Regiment_New-Republic">
-            <cost resource="PUs" quantity="15"/>
+            <cost resource="PUs" quantity="20"/>
             <result resourceOrUnit="Armor-Regiment" quantity="1"/>
         </productionRule>
         <productionRule name="buyFortification_New-Republic">
@@ -1299,15 +1299,15 @@
             <result resourceOrUnit="Fortification" quantity="1"/>
         </productionRule>
         <productionRule name="buyWalker-Regiment_Imperial-Remnant">
-            <cost resource="PUs" quantity="15"/>
+            <cost resource="PUs" quantity="19"/>
             <result resourceOrUnit="Walker-Regiment" quantity="1"/>
         </productionRule>
         <productionRule name="buyBothan-Assault-Cruiser_Jedi-Order">
-            <cost resource="PUs" quantity="24"/>
+            <cost resource="PUs" quantity="16"/>
             <result resourceOrUnit="Bothan-Assault-Cruiser" quantity="1"/>
         </productionRule>
         <productionRule name="buyEspo-Security-Officers_Corporate-Sector-Authority">
-            <cost resource="PUs" quantity="13"/>
+            <cost resource="PUs" quantity="14"/>
             <result resourceOrUnit="Espo-Security-Officers" quantity="1"/>
         </productionRule>
         <productionRule name="buyTemple-Guards_Jedi-Order">
@@ -1315,11 +1315,11 @@
             <result resourceOrUnit="Temple-Guards" quantity="1"/>
         </productionRule>
         <productionRule name="buyScyk-Squadron_Hutt-Cartel">
-            <cost resource="PUs" quantity="21"/>
+            <cost resource="PUs" quantity="28"/>
             <result resourceOrUnit="Scyk-Squadron" quantity="1"/>
         </productionRule>
         <productionRule name="buyCorellian-Gunship_New-Republic">
-            <cost resource="PUs" quantity="16"/>
+            <cost resource="PUs" quantity="15"/>
             <result resourceOrUnit="Corellian-Gunship" quantity="1"/>
         </productionRule>
         <productionRule name="buyFactory_Black-Sun">
@@ -1331,23 +1331,23 @@
             <result resourceOrUnit="Factory" quantity="1"/>
         </productionRule>
         <productionRule name="buyTIE-Fighter-Squadron_Imperial-Remnant">
-            <cost resource="PUs" quantity="15"/>
+            <cost resource="PUs" quantity="14"/>
             <result resourceOrUnit="TIE-Fighter-Squadron" quantity="1"/>
         </productionRule>
         <productionRule name="buyStormtroopers_Imperial-Remnant">
-            <cost resource="PUs" quantity="17"/>
+            <cost resource="PUs" quantity="18"/>
             <result resourceOrUnit="Stormtroopers" quantity="1"/>
         </productionRule>
         <productionRule name="buyNebulon-B-Frigate_New-Republic">
-            <cost resource="PUs" quantity="20"/>
+            <cost resource="PUs" quantity="16"/>
             <result resourceOrUnit="Nebulon-B-Frigate" quantity="1"/>
         </productionRule>
         <productionRule name="buyVenator-Star-Destroyer_Jedi-Order">
-            <cost resource="PUs" quantity="74"/>
+            <cost resource="PUs" quantity="55"/>
             <result resourceOrUnit="Venator-Star-Destroyer" quantity="1"/>
         </productionRule>
         <productionRule name="buySpeeder-Regiment_New-Republic">
-            <cost resource="PUs" quantity="15"/>
+            <cost resource="PUs" quantity="18"/>
             <result resourceOrUnit="Speeder-Regiment" quantity="1"/>
         </productionRule>
         <productionRule name="buyMandalorian-Warriors_Mandalorians">
@@ -1355,11 +1355,11 @@
             <result resourceOrUnit="Mandalorian-Warriors" quantity="1"/>
         </productionRule>
         <productionRule name="buyKeldabe-Battleship_Mandalorians">
-            <cost resource="PUs" quantity="55"/>
+            <cost resource="PUs" quantity="58"/>
             <result resourceOrUnit="Keldabe-Battleship" quantity="1"/>
         </productionRule>
         <productionRule name="buyLAF-250-Squadron_Corellian-Security-Force">
-            <cost resource="PUs" quantity="22"/>
+            <cost resource="PUs" quantity="29"/>
             <result resourceOrUnit="LAF-250-Squadron" quantity="1"/>
         </productionRule>
         <productionRule name="buyEspo-Combat-Troopers_Corporate-Sector-Authority">
@@ -1371,15 +1371,15 @@
             <result resourceOrUnit="Anti-Air-Tower" quantity="1"/>
         </productionRule>
         <productionRule name="buyCalamari-Cruiser_New-Republic">
-            <cost resource="PUs" quantity="47"/>
+            <cost resource="PUs" quantity="36"/>
             <result resourceOrUnit="Calamari-Cruiser" quantity="1"/>
         </productionRule>
         <productionRule name="buyX-Wing-Squadron_New-Republic">
-            <cost resource="PUs" quantity="30"/>
+            <cost resource="PUs" quantity="33"/>
             <result resourceOrUnit="X-Wing-Squadron" quantity="1"/>
         </productionRule>
         <productionRule name="buyAssassin-Droid_Hutt-Cartel">
-            <cost resource="PUs" quantity="12"/>
+            <cost resource="PUs" quantity="13"/>
             <result resourceOrUnit="Assassin-Droid" quantity="1"/>
         </productionRule>
         <productionRule name="buyAnti-Air-Tower_Hutt-Cartel">
@@ -1387,11 +1387,11 @@
             <result resourceOrUnit="Anti-Air-Tower" quantity="1"/>
         </productionRule>
         <productionRule name="buyContainer-Transport_Black-Sun">
-            <cost resource="PUs" quantity="18"/>
+            <cost resource="PUs" quantity="17"/>
             <result resourceOrUnit="Container-Transport" quantity="1"/>
         </productionRule>
         <productionRule name="buyCutlass-Corvette_Corporate-Sector-Authority">
-            <cost resource="PUs" quantity="23"/>
+            <cost resource="PUs" quantity="19"/>
             <result resourceOrUnit="Cutlass-Corvette" quantity="1"/>
         </productionRule>
         <productionRule name="buyLancer-Frigate_Imperial-Remnant">
@@ -1399,11 +1399,11 @@
             <result resourceOrUnit="Lancer-Frigate" quantity="1"/>
         </productionRule>
         <productionRule name="buyArmored-Mercenaries_Black-Sun">
-            <cost resource="PUs" quantity="15"/>
+            <cost resource="PUs" quantity="17"/>
             <result resourceOrUnit="Armored-Mercenaries" quantity="1"/>
         </productionRule>
         <productionRule name="buyTank-Regiment_Mandalorians">
-            <cost resource="PUs" quantity="17"/>
+            <cost resource="PUs" quantity="21"/>
             <result resourceOrUnit="Tank-Regiment" quantity="1"/>
         </productionRule>
         <productionRule name="buyArmy-Troopers_Imperial-Remnant">
@@ -1411,27 +1411,27 @@
             <result resourceOrUnit="Army-Troopers" quantity="1"/>
         </productionRule>
         <productionRule name="buyCorellian-Heavy-Gunship_Corellian-Security-Force">
-            <cost resource="PUs" quantity="20"/>
+            <cost resource="PUs" quantity="17"/>
             <result resourceOrUnit="Corellian-Heavy-Gunship" quantity="1"/>
         </productionRule>
         <productionRule name="buyImperial-Star-Destroyer_Imperial-Remnant">
-            <cost resource="PUs" quantity="89"/>
+            <cost resource="PUs" quantity="85"/>
             <result resourceOrUnit="Imperial-Star-Destroyer" quantity="1"/>
         </productionRule>
         <productionRule name="buyMarauder-Corvette_Corporate-Sector-Authority">
-            <cost resource="PUs" quantity="14"/>
+            <cost resource="PUs" quantity="13"/>
             <result resourceOrUnit="Marauder-Corvette" quantity="1"/>
         </productionRule>
         <productionRule name="buyDreadnaught-Cruiser_Corporate-Sector-Authority">
-            <cost resource="PUs" quantity="30"/>
+            <cost resource="PUs" quantity="21"/>
             <result resourceOrUnit="Dreadnaught-Cruiser" quantity="1"/>
         </productionRule>
         <productionRule name="buyAction-Transport_Corellian-Security-Force">
-            <cost resource="PUs" quantity="10"/>
+            <cost resource="PUs" quantity="14"/>
             <result resourceOrUnit="Action-Transport" quantity="1"/>
         </productionRule>
         <productionRule name="buyCorSec-Officers_Corellian-Security-Force">
-            <cost resource="PUs" quantity="13"/>
+            <cost resource="PUs" quantity="14"/>
             <result resourceOrUnit="CorSec-Officers" quantity="1"/>
         </productionRule>
         <!-- <productionRule name="buyDunelizard-Squadron_Hutt-Cartel">
@@ -1439,23 +1439,23 @@
             <result resourceOrUnit="Dunelizard-Squadron" quantity="1"/>
         </productionRule> -->
         <productionRule name="buyInterceptor-Frigate_Black-Sun">
-            <cost resource="PUs" quantity="16"/>
+            <cost resource="PUs" quantity="14"/>
             <result resourceOrUnit="Interceptor-Frigate" quantity="1"/>
         </productionRule>
         <productionRule name="buyGladiator-Squadron_Mandalorians">
-            <cost resource="PUs" quantity="18"/>
+            <cost resource="PUs" quantity="16"/>
             <result resourceOrUnit="Gladiator-Squadron" quantity="1"/>
         </productionRule>
         <productionRule name="buyHLAF-500-Squadron_Corellian-Security-Force">
-            <cost resource="PUs" quantity="28"/>
+            <cost resource="PUs" quantity="33"/>
             <result resourceOrUnit="HLAF-500-Squadron" quantity="1"/>
         </productionRule>
         <productionRule name="buyFirestorm-Frigate_Mandalorians">
-            <cost resource="PUs" quantity="22"/>
+            <cost resource="PUs" quantity="18"/>
             <result resourceOrUnit="Firestorm-Frigate" quantity="1"/>
         </productionRule>
         <productionRule name="buyStrike-Cruiser_Imperial-Remnant">
-            <cost resource="PUs" quantity="28"/>
+            <cost resource="PUs" quantity="25"/>
             <result resourceOrUnit="Strike-Cruiser" quantity="1"/>
         </productionRule>
         <productionRule name="buySpecOps-Officers_Corellian-Security-Force">
@@ -1467,39 +1467,39 @@
             <result resourceOrUnit="Factory" quantity="1"/>
         </productionRule>
         <productionRule name="buyA-Wing-Squadron_New-Republic">
-            <cost resource="PUs" quantity="30"/>
+            <cost resource="PUs" quantity="34"/>
             <result resourceOrUnit="A-Wing-Squadron" quantity="1"/>
         </productionRule>
         <productionRule name="buyProvidence-Destroyer_Black-Sun">
-            <cost resource="PUs" quantity="46"/>
+            <cost resource="PUs" quantity="36"/>
             <result resourceOrUnit="Providence-Destroyer" quantity="1"/>
         </productionRule>
         <productionRule name="buyInvincible-Cruiser_Corporate-Sector-Authority">
-            <cost resource="PUs" quantity="48"/>
+            <cost resource="PUs" quantity="45"/>
             <result resourceOrUnit="Invincible-Cruiser" quantity="1"/>
         </productionRule>
         <productionRule name="buyPelta-Frigate_Jedi-Order">
-            <cost resource="PUs" quantity="19"/>
+            <cost resource="PUs" quantity="17"/>
             <result resourceOrUnit="Pelta-Frigate" quantity="1"/>
         </productionRule>
         <productionRule name="buySpace-Transport_Mandalorians">
-            <cost resource="PUs" quantity="12"/>
+            <cost resource="PUs" quantity="14"/>
             <result resourceOrUnit="Space-Transport" quantity="1"/>
         </productionRule>
         <productionRule name="buyEspo-Repulsor-Units_Corporate-Sector-Authority">
-            <cost resource="PUs" quantity="13"/>
+            <cost resource="PUs" quantity="16"/>
             <result resourceOrUnit="Espo-Repulsor-Units" quantity="1"/>
         </productionRule>
         <productionRule name="buyEspo-Walker-Units_Corporate-Sector-Authority">
-            <cost resource="PUs" quantity="13"/>
+            <cost resource="PUs" quantity="16"/>
             <result resourceOrUnit="Espo-Walker-Units" quantity="1"/>
         </productionRule>
         <productionRule name="buyAssault-Frigate_New-Republic">
-            <cost resource="PUs" quantity="27"/>
+            <cost resource="PUs" quantity="20"/>
             <result resourceOrUnit="Assault-Frigate" quantity="1"/>
         </productionRule>
         <productionRule name="buyBuccaneer-Corvette_Corellian-Security-Force">
-            <cost resource="PUs" quantity="19"/>
+            <cost resource="PUs" quantity="17"/>
             <result resourceOrUnit="Buccaneer-Corvette" quantity="1"/>
         </productionRule>
         <productionRule name="buyFortification_Jedi-Order">
@@ -1515,23 +1515,23 @@
             <result resourceOrUnit="Anti-Air-Tower" quantity="1"/>
         </productionRule>
         <productionRule name="buyArmored-Police-Units_Corellian-Security-Force">
-            <cost resource="PUs" quantity="15"/>
+            <cost resource="PUs" quantity="20"/>
             <result resourceOrUnit="Armored-Police-Units" quantity="1"/>
         </productionRule>
         <productionRule name="buyKrayt-Cruiser_Hutt-Cartel">
-            <cost resource="PUs" quantity="53"/>
+            <cost resource="PUs" quantity="49"/>
             <result resourceOrUnit="Krayt-Cruiser" quantity="1"/>
         </productionRule>
         <productionRule name="buyAcclamator-Assault-Ship_Jedi-Order">
-            <cost resource="PUs" quantity="61"/>
+            <cost resource="PUs" quantity="37"/>
             <result resourceOrUnit="Acclamator-Assault-Ship" quantity="1"/>
         </productionRule>
         <productionRule name="buyCC-9600-Frigate_Corellian-Security-Force">
-            <cost resource="PUs" quantity="36"/>
+            <cost resource="PUs" quantity="30"/>
             <result resourceOrUnit="CC-9600-Frigate" quantity="1"/>
         </productionRule>
         <productionRule name="buyGammorean-Guards_Hutt-Cartel">
-            <cost resource="PUs" quantity="14"/>
+            <cost resource="PUs" quantity="15"/>
             <result resourceOrUnit="Gammorean-Guards" quantity="1"/>
         </productionRule>
         <productionRule name="buyFactory_Mandalorians">
@@ -1543,23 +1543,23 @@
             <result resourceOrUnit="Fortification" quantity="1"/>
         </productionRule>
         <productionRule name="buyPursuer-Heavy-Squadron_Mandalorians">
-            <cost resource="PUs" quantity="31"/>
+            <cost resource="PUs" quantity="35"/>
             <result resourceOrUnit="Pursuer-Heavy-Squadron" quantity="1"/>
         </productionRule>
         <productionRule name="buyBeroya-Cruiser_Mandalorians">
-            <cost resource="PUs" quantity="31"/>
+            <cost resource="PUs" quantity="29"/>
             <result resourceOrUnit="Beroya-Cruiser" quantity="1"/>
         </productionRule>
         <productionRule name="buyBulwark-Cruiser_New-Republic">
-            <cost resource="PUs" quantity="110"/>
+            <cost resource="PUs" quantity="90"/>
             <result resourceOrUnit="Bulwark-Cruiser" quantity="1"/>
         </productionRule>
         <productionRule name="buySaboteur_Black-Sun">
-            <cost resource="PUs" quantity="11"/>
+            <cost resource="PUs" quantity="13"/>
             <result resourceOrUnit="Saboteur" quantity="1"/>
         </productionRule>
         <productionRule name="buyVaksai-Squadron_Black-Sun">
-            <cost resource="PUs" quantity="27"/>
+            <cost resource="PUs" quantity="31"/>
             <result resourceOrUnit="Vaksai-Squadron" quantity="1"/>
         </productionRule>
         <productionRule name="buyArmy-Regiment_New-Republic">
@@ -1567,7 +1567,7 @@
             <result resourceOrUnit="Army-Regiment" quantity="1"/>
         </productionRule>
         <productionRule name="buyCorona-Frigate_Corellian-Security-Force">
-            <cost resource="PUs" quantity="32"/>
+            <cost resource="PUs" quantity="22"/>
             <result resourceOrUnit="Corona-Frigate" quantity="1"/>
         </productionRule>
         <productionRule name="buyFactory_AI-Locals">
@@ -1583,35 +1583,35 @@
             <result resourceOrUnit="Fortification" quantity="1"/>
         </productionRule>
         <productionRule name="buyPirate-Ship_AI-Locals">
-            <cost resource="PUs" quantity="1"/>
+            <cost resource="PUs" quantity="10"/>
             <result resourceOrUnit="Pirate-Ship" quantity="1"/>
         </productionRule>
         <productionRule name="buyPirate-Starfighters_AI-Locals">
-            <cost resource="PUs" quantity="1"/>
+            <cost resource="PUs" quantity="10"/>
             <result resourceOrUnit="Pirate-Starfighters" quantity="1"/>
         </productionRule>
         <productionRule name="buyPirates_AI-Locals">
-            <cost resource="PUs" quantity="1"/>
+            <cost resource="PUs" quantity="10"/>
             <result resourceOrUnit="Pirates" quantity="1"/>
         </productionRule>
         <productionRule name="buyLocal-Forces_AI-Locals">
-            <cost resource="PUs" quantity="1"/>
+            <cost resource="PUs" quantity="10"/>
             <result resourceOrUnit="Local-Forces" quantity="1"/>
         </productionRule>
         <productionRule name="buyWookiees_AI-Locals">
-            <cost resource="PUs" quantity="1"/>
+            <cost resource="PUs" quantity="10"/>
             <result resourceOrUnit="Wookiees" quantity="1"/>
         </productionRule>
         <productionRule name="buyGammoreans_AI-Locals">
-            <cost resource="PUs" quantity="1"/>
+            <cost resource="PUs" quantity="10"/>
             <result resourceOrUnit="Gammoreans" quantity="1"/>
         </productionRule>
         <productionRule name="buyTusken-Raiders_AI-Locals">
-            <cost resource="PUs" quantity="1"/>
+            <cost resource="PUs" quantity="10"/>
             <result resourceOrUnit="Tusken-Raiders" quantity="1"/>
         </productionRule>
         <productionRule name="buyEwoks_AI-Locals">
-            <cost resource="PUs" quantity="1"/>
+            <cost resource="PUs" quantity="10"/>
             <result resourceOrUnit="Ewoks" quantity="1"/>
         </productionRule>
 
@@ -1840,7 +1840,7 @@
         
         <attachment name="unitAttachment" attachTo="A-Wing-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
-            <option name="carrierCost" value="2"/>
+            <option name="carrierCost" value="1"/>
             <option name="defense" value="4"/>
             <option name="isAir" value="true"/>
             <option name="canIntercept" value="true"/>
@@ -1853,7 +1853,7 @@
         <attachment name="unitAttachment" attachTo="ARC170-Heavy-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="4"/>
             <option name="bombingBonus" value="2"/>
-            <option name="carrierCost" value="2"/>
+            <option name="carrierCost" value="1"/>
             <option name="defense" value="3"/>
             <option name="isAir" value="true"/>
             <option name="canIntercept" value="true"/>
@@ -1867,18 +1867,18 @@
         <attachment name="unitAttachment" attachTo="Acclamator-Assault-Ship" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
             <option name="canBombard" value="true"/>
-            <option name="carrierCapacity" value="9"/>
+            <option name="carrierCapacity" value="5"/>
             <option name="defense" value="3"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="2"/>
-            <option name="transportCapacity" value="20"/>
+            <option name="transportCapacity" value="10"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Action-Transport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
             <option name="defense" value="1"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="3"/>
-            <option name="transportCapacity" value="2"/>
+            <option name="transportCapacity" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Aethersprite-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
@@ -1895,12 +1895,12 @@
         <attachment name="unitAttachment" attachTo="Aggressor-Destroyer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="5"/>
             <option name="canBombard" value="true"/>
-            <option name="carrierCapacity" value="6"/>
+            <option name="carrierCapacity" value="3"/>
             <option name="defense" value="2"/>
             <option name="isSea" value="true"/>
             <option name="hitPoints" value="2"/>
             <option name="movement" value="2"/>
-            <option name="transportCapacity" value="2"/>
+            <option name="transportCapacity" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Alderaanian-War-Frigate" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
@@ -1922,7 +1922,7 @@
             <option name="canBlitz" value="true"/>
             <option name="defense" value="1"/>
             <option name="movement" value="3"/>
-            <option name="transportCost" value="3"/>
+            <option name="transportCost" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Armored-Mercenaries" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillery" value="true"/>
@@ -1930,7 +1930,7 @@
             <option name="canBlitz" value="true"/>
             <option name="defense" value="2"/>
             <option name="movement" value="2"/>
-            <option name="transportCost" value="3"/>
+            <option name="transportCost" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Armored-Police-Units" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillery" value="true"/>
@@ -1938,7 +1938,7 @@
             <option name="canBlitz" value="true"/>
             <option name="defense" value="3"/>
             <option name="movement" value="3"/>
-            <option name="transportCost" value="3"/>
+            <option name="transportCost" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Army-Regiment" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillerySupportable" value="true"/>
@@ -1946,7 +1946,7 @@
             <option name="defense" value="3"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
-            <option name="transportCost" value="2"/>
+            <option name="transportCost" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Army-Troopers" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillerySupportable" value="true"/>
@@ -1954,14 +1954,14 @@
             <option name="defense" value="3"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
-            <option name="transportCost" value="2"/>
+            <option name="transportCost" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Artillery-Regiment" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillery" value="true"/>
             <option name="attack" value="2"/>
             <option name="defense" value="1"/>
             <option name="movement" value="1"/>
-            <option name="transportCost" value="2"/>
+            <option name="transportCost" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Assassin-Droid" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillery" value="true"/>
@@ -1975,7 +1975,7 @@
             <option name="defense" value="4"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="2"/>
-            <option name="transportCapacity" value="2"/>
+            <option name="transportCapacity" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Beroya-Cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="4"/>
@@ -1983,11 +1983,11 @@
             <option name="defense" value="3"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="2"/>
-            <option name="transportCapacity" value="4"/>
+            <option name="transportCapacity" value="2"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Bothan-Assault-Cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
-            <option name="carrierCapacity" value="4"/>
+            <option name="carrierCapacity" value="2"/>
             <option name="defense" value="2"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="2"/>
@@ -1997,24 +1997,24 @@
             <option name="defense" value="2"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="3"/>
-            <option name="transportCapacity" value="3"/>
+            <option name="transportCapacity" value="2"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Bulk-Freighter" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
             <option name="defense" value="1"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="3"/>
-            <option name="transportCapacity" value="4"/>
+            <option name="transportCapacity" value="2"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Bulwark-Cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="5"/>
             <option name="canBombard" value="true"/>
-            <option name="carrierCapacity" value="20"/>
+            <option name="carrierCapacity" value="10"/>
             <option name="defense" value="5"/>
             <option name="isSea" value="true"/>
             <option name="hitPoints" value="2"/>
             <option name="movement" value="2"/>
-            <option name="transportCapacity" value="20"/>
+            <option name="transportCapacity" value="10"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="CC-9600-Frigate" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
@@ -2022,23 +2022,23 @@
             <option name="defense" value="4"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="2"/>
-            <option name="transportCapacity" value="10"/>
+            <option name="transportCapacity" value="5"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Calamari-Cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="4"/>
             <option name="canBombard" value="true"/>
-            <option name="carrierCapacity" value="6"/>
+            <option name="carrierCapacity" value="3"/>
             <option name="defense" value="4"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="2"/>
-            <option name="transportCapacity" value="5"/>
+            <option name="transportCapacity" value="3"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Cargo-Transport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
             <option name="defense" value="1"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="4"/>
-            <option name="transportCapacity" value="2"/>
+            <option name="transportCapacity" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Carrack-Cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
@@ -2058,14 +2058,14 @@
             <option name="canBlitz" value="true"/>
             <option name="defense" value="2"/>
             <option name="movement" value="3"/>
-            <option name="transportCost" value="3"/>
+            <option name="transportCost" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Container-Transport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
             <option name="defense" value="1"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="3"/>
-            <option name="transportCapacity" value="6"/>
+            <option name="transportCapacity" value="3"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="CorSec-Officers" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillerySupportable" value="true"/>
@@ -2073,14 +2073,14 @@
             <option name="defense" value="3"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
-            <option name="transportCost" value="2"/>
+            <option name="transportCost" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Corellian-Corvette" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
             <option name="defense" value="2"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="3"/>
-            <option name="transportCapacity" value="2"/>
+            <option name="transportCapacity" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Corellian-Gunship" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
@@ -2112,7 +2112,7 @@
             <option name="defense" value="3"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="3"/>
-            <option name="transportCapacity" value="3"/>
+            <option name="transportCapacity" value="2"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Dreadnaught-Cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
@@ -2120,11 +2120,11 @@
             <option name="defense" value="3"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="2"/>
-            <option name="transportCapacity" value="6"/>
+            <option name="transportCapacity" value="3"/>
         </attachment>
         <!-- <attachment name="unitAttachment" attachTo="Dunelizard-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
-            <option name="carrierCost" value="2"/>
+            <option name="carrierCost" value="1"/>
             <option name="defense" value="1"/>
             <option name="isAir" value="true"/>
             <option name="canIntercept" value="true"/>
@@ -2147,7 +2147,7 @@
             <option name="defense" value="3"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
-            <option name="transportCost" value="2"/>
+            <option name="transportCost" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Espo-Repulsor-Units" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillery" value="true"/>
@@ -2155,7 +2155,7 @@
             <option name="canBlitz" value="true"/>
             <option name="defense" value="2"/>
             <option name="movement" value="3"/>
-            <option name="transportCost" value="3"/>
+            <option name="transportCost" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Espo-Security-Officers" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillerySupportable" value="true"/>
@@ -2163,7 +2163,7 @@
             <option name="defense" value="3"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
-            <option name="transportCost" value="2"/>
+            <option name="transportCost" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Espo-Walker-Units" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillery" value="true"/>
@@ -2171,7 +2171,7 @@
             <option name="canBlitz" value="true"/>
             <option name="defense" value="1"/>
             <option name="movement" value="2"/>
-            <option name="transportCost" value="3"/>
+            <option name="transportCost" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Etti-Patrol-Cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
@@ -2184,7 +2184,7 @@
             <option name="defense" value="3"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
-            <option name="transportCost" value="2"/>
+            <option name="transportCost" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Factory" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="isFactory" value="true"/>
@@ -2198,7 +2198,7 @@
         </attachment>
         <attachment name="unitAttachment" attachTo="Firespray-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
-            <option name="carrierCost" value="2"/>
+            <option name="carrierCost" value="1"/>
             <option name="defense" value="2"/>
             <option name="isAir" value="true"/>
             <option name="canIntercept" value="true"/>
@@ -2213,11 +2213,11 @@
             <option name="defense" value="2"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="3"/>
-            <option name="transportCapacity" value="2"/>
+            <option name="transportCapacity" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Fleet-Carrier" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
-            <option name="carrierCapacity" value="8"/>
+            <option name="carrierCapacity" value="4"/>
             <option name="defense" value="1"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="2"/>
@@ -2244,7 +2244,7 @@
             <option name="defense" value="3"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
-            <option name="transportCost" value="2"/>
+            <option name="transportCost" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Gladiator-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
@@ -2267,7 +2267,7 @@
         <attachment name="unitAttachment" attachTo="HLAF-500-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
             <option name="bombingBonus" value="2"/>
-            <option name="carrierCost" value="2"/>
+            <option name="carrierCost" value="1"/>
             <option name="defense" value="2"/>
             <option name="isAir" value="true"/>
             <option name="canIntercept" value="true"/>
@@ -2284,7 +2284,7 @@
             <option name="defense" value="2"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
-            <option name="transportCost" value="2"/>
+            <option name="transportCost" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Hutt-Expedition" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillery" value="true"/>
@@ -2292,7 +2292,7 @@
             <option name="canBlitz" value="true"/>
             <option name="defense" value="4"/>
             <option name="movement" value="3"/>
-            <option name="transportCost" value="4"/>
+            <option name="transportCost" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="IRD-Fighter-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
@@ -2314,7 +2314,7 @@
             <option name="isSea" value="true"/>
             <option name="hitPoints" value="2"/>
             <option name="movement" value="2"/>
-            <option name="transportCapacity" value="30"/>
+            <option name="transportCapacity" value="15"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Interceptor-Frigate" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
@@ -2329,7 +2329,7 @@
             <option name="isSea" value="true"/>
             <option name="hitPoints" value="2"/>
             <option name="movement" value="2"/>
-            <option name="transportCapacity" value="15"/>
+            <option name="transportCapacity" value="8"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Jedi-Knight" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillery" value="true"/>
@@ -2341,16 +2341,16 @@
         <attachment name="unitAttachment" attachTo="Keldabe-Battleship" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="5"/>
             <option name="canBombard" value="true"/>
-            <option name="carrierCapacity" value="3"/>
+            <option name="carrierCapacity" value="2"/>
             <option name="defense" value="4"/>
             <option name="isSea" value="true"/>
             <option name="hitPoints" value="2"/>
             <option name="movement" value="2"/>
-            <option name="transportCapacity" value="2"/>
+            <option name="transportCapacity" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Kihraxz-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
-            <option name="carrierCost" value="2"/>
+            <option name="carrierCost" value="1"/>
             <option name="defense" value="3"/>
             <option name="isAir" value="true"/>
             <option name="canIntercept" value="true"/>
@@ -2363,7 +2363,7 @@
         <attachment name="unitAttachment" attachTo="Kimogila-Heavy-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
             <option name="bombingBonus" value="2"/>
-            <option name="carrierCost" value="2"/>
+            <option name="carrierCost" value="1"/>
             <option name="defense" value="1"/>
             <option name="isAir" value="true"/>
             <option name="canIntercept" value="true"/>
@@ -2377,16 +2377,16 @@
         <attachment name="unitAttachment" attachTo="Krayt-Cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="4"/>
             <option name="canBombard" value="true"/>
-            <option name="carrierCapacity" value="4"/>
+            <option name="carrierCapacity" value="2"/>
             <option name="defense" value="3"/>
             <option name="isSea" value="true"/>
             <option name="hitPoints" value="2"/>
             <option name="movement" value="2"/>
-            <option name="transportCapacity" value="7"/>
+            <option name="transportCapacity" value="4"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="LAF-250-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
-            <option name="carrierCost" value="2"/>
+            <option name="carrierCost" value="1"/>
             <option name="defense" value="2"/>
             <option name="isAir" value="true"/>
             <option name="canIntercept" value="true"/>
@@ -2415,14 +2415,14 @@
             <option name="defense" value="2"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
-            <option name="transportCost" value="2"/>
+            <option name="transportCost" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Local-Forces" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
             <option name="defense" value="3"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
-            <option name="transportCost" value="2"/>
+            <option name="transportCost" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Mandalorian-Protectors" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillerySupportable" value="true"/>
@@ -2430,7 +2430,7 @@
             <option name="defense" value="2"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
-            <option name="transportCost" value="2"/>
+            <option name="transportCost" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Mandalorian-Warriors" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillerySupportable" value="true"/>
@@ -2438,7 +2438,7 @@
             <option name="defense" value="3"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
-            <option name="transportCost" value="2"/>
+            <option name="transportCost" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Marauder-Corvette" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
@@ -2453,7 +2453,7 @@
             <option name="defense" value="2"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
-            <option name="transportCost" value="2"/>
+            <option name="transportCost" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Minstrel-Cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
@@ -2467,11 +2467,11 @@
             <option name="canBlitz" value="true"/>
             <option name="defense" value="1"/>
             <option name="movement" value="3"/>
-            <option name="transportCost" value="3"/>
+            <option name="transportCost" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Mynock-Carrier" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
-            <option name="carrierCapacity" value="8"/>
+            <option name="carrierCapacity" value="4"/>
             <option name="defense" value="1"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="2"/>
@@ -2485,7 +2485,7 @@
         </attachment>
         <attachment name="unitAttachment" attachTo="P-Fighter-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
-            <option name="carrierCost" value="2"/>
+            <option name="carrierCost" value="1"/>
             <option name="defense" value="3"/>
             <option name="isAir" value="true"/>
             <option name="canIntercept" value="true"/>
@@ -2500,19 +2500,19 @@
             <option name="defense" value="2"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="3"/>
-            <option name="transportCapacity" value="3"/>
+            <option name="transportCapacity" value="2"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Pirate-Ship" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
-            <option name="carrierCapacity" value="2"/>
+            <option name="carrierCapacity" value="1"/>
             <option name="defense" value="3"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="2"/>
-            <option name="transportCapacity" value="2"/>
+            <option name="transportCapacity" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Pirate-Starfighters" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
-            <option name="carrierCost" value="2"/>
+            <option name="carrierCost" value="1"/>
             <option name="defense" value="2"/>
             <option name="isAir" value="true"/>
             <option name="canIntercept" value="true"/>
@@ -2527,31 +2527,31 @@
             <option name="defense" value="3"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
-            <option name="transportCost" value="2"/>
+            <option name="transportCost" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Proficient-Cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-            <option name="attack" value="4"/>
-            <option name="canBombard" value="true"/>
-            <option name="carrierCapacity" value="4"/>
-            <option name="defense" value="3"/>
-            <option name="isSea" value="true"/>
-            <option name="hitPoints" value="2"/>
-            <option name="movement" value="2"/>
-            <option name="transportCapacity" value="8"/>
-        </attachment>
-        <attachment name="unitAttachment" attachTo="Providence-Destroyer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="4"/>
             <option name="canBombard" value="true"/>
             <option name="carrierCapacity" value="2"/>
             <option name="defense" value="3"/>
             <option name="isSea" value="true"/>
+            <option name="hitPoints" value="2"/>
             <option name="movement" value="2"/>
-            <option name="transportCapacity" value="15"/>
+            <option name="transportCapacity" value="4"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Providence-Destroyer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="4"/>
+            <option name="canBombard" value="true"/>
+            <option name="carrierCapacity" value="1"/>
+            <option name="defense" value="3"/>
+            <option name="isSea" value="true"/>
+            <option name="movement" value="2"/>
+            <option name="transportCapacity" value="8"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Pursuer-Heavy-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
             <option name="bombingBonus" value="2"/>
-            <option name="carrierCost" value="2"/>
+            <option name="carrierCost" value="1"/>
             <option name="defense" value="3"/>
             <option name="isAir" value="true"/>
             <option name="canIntercept" value="true"/>
@@ -2568,7 +2568,7 @@
             <option name="canBlitz" value="true"/>
             <option name="defense" value="2"/>
             <option name="movement" value="3"/>
-            <option name="transportCost" value="3"/>
+            <option name="transportCost" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Saboteur" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillery" value="true"/>
@@ -2579,7 +2579,7 @@
         </attachment>
         <attachment name="unitAttachment" attachTo="Scyk-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
-            <option name="carrierCost" value="2"/>
+            <option name="carrierCost" value="1"/>
             <option name="defense" value="2"/>
             <option name="isAir" value="true"/>
             <option name="canIntercept" value="true"/>
@@ -2594,7 +2594,7 @@
             <option name="defense" value="1"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="2"/>
-            <option name="transportCapacity" value="8"/>
+            <option name="transportCapacity" value="4"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="SpecForce-Regiment" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillerySupportable" value="true"/>
@@ -2602,14 +2602,14 @@
             <option name="defense" value="2"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
-            <option name="transportCost" value="2"/>
+            <option name="transportCost" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="SpecOps-Officers" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
             <option name="defense" value="2"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
-            <option name="transportCost" value="2"/>
+            <option name="transportCost" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Speeder-Regiment" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillery" value="true"/>
@@ -2617,14 +2617,14 @@
             <option name="canBlitz" value="true"/>
             <option name="defense" value="2"/>
             <option name="movement" value="3"/>
-            <option name="transportCost" value="3"/>
+            <option name="transportCost" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Star-Galleon" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
             <option name="defense" value="2"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="2"/>
-            <option name="transportCapacity" value="14"/>
+            <option name="transportCapacity" value="7"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Stormtroopers" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillerySupportable" value="true"/>
@@ -2632,7 +2632,7 @@
             <option name="defense" value="2"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
-            <option name="transportCost" value="2"/>
+            <option name="transportCost" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Strike-Cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
@@ -2641,12 +2641,12 @@
             <option name="defense" value="3"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="2"/>
-            <option name="transportCapacity" value="3"/>
+            <option name="transportCapacity" value="2"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Supa-Heavy-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="4"/>
             <option name="bombingBonus" value="2"/>
-            <option name="carrierCost" value="2"/>
+            <option name="carrierCost" value="1"/>
             <option name="defense" value="2"/>
             <option name="isAir" value="true"/>
             <option name="canIntercept" value="true"/>
@@ -2701,7 +2701,7 @@
             <option name="canBlitz" value="true"/>
             <option name="defense" value="2"/>
             <option name="movement" value="3"/>
-            <option name="transportCost" value="3"/>
+            <option name="transportCost" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Temple-Guards" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillerySupportable" value="true"/>
@@ -2709,7 +2709,7 @@
             <option name="defense" value="3"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
-            <option name="transportCost" value="2"/>
+            <option name="transportCost" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Temple-Security-Forces" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillerySupportable" value="true"/>
@@ -2717,12 +2717,12 @@
             <option name="defense" value="2"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
-            <option name="transportCost" value="2"/>
+            <option name="transportCost" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Toscan-Heavy-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
             <option name="bombingBonus" value="2"/>
-            <option name="carrierCost" value="2"/>
+            <option name="carrierCost" value="1"/>
             <option name="defense" value="1"/>
             <option name="isAir" value="true"/>
             <option name="canIntercept" value="true"/>
@@ -2738,20 +2738,20 @@
             <option name="defense" value="3"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
-            <option name="transportCost" value="2"/>
+            <option name="transportCost" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Ubrikkian-Frigate" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
             <option name="canBombard" value="true"/>
-            <option name="carrierCapacity" value="2"/>
+            <option name="carrierCapacity" value="1"/>
             <option name="defense" value="2"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="2"/>
-            <option name="transportCapacity" value="6"/>
+            <option name="transportCapacity" value="3"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="V19-Torrent-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
-            <option name="carrierCost" value="2"/>
+            <option name="carrierCost" value="1"/>
             <option name="defense" value="2"/>
             <option name="isAir" value="true"/>
             <option name="canIntercept" value="true"/>
@@ -2763,7 +2763,7 @@
         </attachment>
         <attachment name="unitAttachment" attachTo="Vaksai-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
-            <option name="carrierCost" value="2"/>
+            <option name="carrierCost" value="1"/>
             <option name="defense" value="2"/>
             <option name="isAir" value="true"/>
             <option name="canIntercept" value="true"/>
@@ -2776,12 +2776,12 @@
         <attachment name="unitAttachment" attachTo="Venator-Star-Destroyer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
             <option name="canBombard" value="true"/>
-            <option name="carrierCapacity" value="15"/>
+            <option name="carrierCapacity" value="8"/>
             <option name="defense" value="4"/>
             <option name="isSea" value="true"/>
             <option name="hitPoints" value="2"/>
             <option name="movement" value="2"/>
-            <option name="transportCapacity" value="7"/>
+            <option name="transportCapacity" value="4"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Victory-Star-Destroyer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="4"/>
@@ -2790,7 +2790,7 @@
             <option name="defense" value="3"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="2"/>
-            <option name="transportCapacity" value="7"/>
+            <option name="transportCapacity" value="4"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Walker-Regiment" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillery" value="true"/>
@@ -2798,18 +2798,18 @@
             <option name="canBlitz" value="true"/>
             <option name="defense" value="1"/>
             <option name="movement" value="2"/>
-            <option name="transportCost" value="3"/>
+            <option name="transportCost" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Wookiees" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
             <option name="defense" value="3"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
-            <option name="transportCost" value="2"/>
+            <option name="transportCost" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="X-Wing-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
-            <option name="carrierCost" value="2"/>
+            <option name="carrierCost" value="1"/>
             <option name="defense" value="3"/>
             <option name="isAir" value="true"/>
             <option name="canIntercept" value="true"/>
@@ -2822,7 +2822,7 @@
         <attachment name="unitAttachment" attachTo="Y-Wing-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="4"/>
             <option name="bombingBonus" value="2"/>
-            <option name="carrierCost" value="2"/>
+            <option name="carrierCost" value="1"/>
             <option name="defense" value="1"/>
             <option name="isAir" value="true"/>
             <option name="canIntercept" value="true"/>
@@ -3356,17 +3356,17 @@
 <br>
 <center><img src="starwars.png"/></center>
 <br><center><span style="font-size:16px;color:FFFF33;"></span><b><span style="font-size:14px;color:FFFF33;">GALACTIC WAR</span></b><span style="font-size:14px;color:FFFF33;"></span></center>
-<br><center><span style="font-size:14px;color:FFFF33;">Free-for-all version</span></center>
+<br><span style="font-size:14px;color:FFFF33;">It is a period of instability. Many years have passed since the death of Emperor Palpatine. Yet, the remnant forces of the Galactic Empire still seek to win back control of the galaxy. After forging a mutually beneficial dark alliance with the corporate industry and the criminal underworld, the Imperial Remnant makes its move. However, the peaceful republic is not about to fall easily. The Corellians and the Mandalorians unite with the New Republic, and of course, the Jedi Knights yet again stand willing to battle the dark and protect the light....</span>
 <br>
 <br>
-<br><b><span style="font-size:16px;color:FFFFFF;">Tips and rules:</span></b><br>
-<br><span style="font-size:14px;color:FFFFFF;">Conquer 50% of the galaxy to win. (24 out of the 48 VCs.)</span><br>
+<br><b><span style="font-size:16px;color:CC6666;">Tips and rules:</span></b><br>
+<br><span style="font-size:14px;color:FFFFFF;">Conquer 75% of the galaxy to win. (36 out of the 48 VCs.)</span><br>
 <br><span style="font-size:14px;color:FFFFFF;">This map has faction specific units. Hover the mouse cursor over enemy units and press the i button to examine stats.</span><br>
 <br><span style="font-size:14px;color:FFFFFF;">Units do not need to be placed in the same round as they are bought.</span><br>
 <br><span style="font-size:14px;color:FFFFFF;">Many land units can give or receive support.</span><br>
 <br><span style="font-size:14px;color:FFFFFF;">Each faction has two bombard capable ships.</span><br>
-<br><span style="font-size:14px;color:FFFFFF;">Each faction has one 2 hit battleship.</span><br>
-<br><span style="font-size:14px;color:FFFFFF;">2 hit units are repaired at the beginning of rounds.</span><br>
+<br><span style="font-size:14px;color:FFFFFF;">Each faction has one 2-hit battleship.</span><br>
+<br><span style="font-size:14px;color:FFFFFF;">2-hit units are repaired at the beginning of rounds.</span><br>
 <br><span style="font-size:14px;color:FFFFFF;">All spaceships with carrier capacity move 2.</span><br>
 <br><span style="font-size:14px;color:FFFFFF;">Fighters are either short-range (4 move) or long-range (10 move).</span><br>
 <br><span style="font-size:14px;color:FFFFFF;">Strategic Bombardment done by heavy fighters can be escorted by other fighters.</span><br>
@@ -3374,10 +3374,10 @@
 <br><span style="font-size:14px;color:FFFFFF;">Interception battles only last 1 round.</span><br>
 <br><span style="font-size:14px;color:FFFFFF;">This map works best with the setting View - Show Map Blends - Off.</span><br>
 <br>
-<br><b><span style="font-size:16px;color:FFFFFF;">Map by:</span></b><br>
+<br><b><span style="font-size:16px;color:CC6666;">Map by:</span></b><br>
 <br><span style="font-size:14px;color:FFFFFF;">Frostion</span><br>
 <br>
-<br><b><span style="font-size:16px;color:FFFFFF;">Thanks to:</span></b><br>
+<br><b><span style="font-size:16px;color:CC6666;">Thanks to:</span></b><br>
 <br><span style="font-size:14px;color:FFFFFF;">Veqryns Map and map skin making overview.</span><br>
 <br><span style="font-size:14px;color:FFFFFF;">The Pact of steel 2.xml (An advanced guide).</span><br>
 <br><span style="font-size:14px;color:FFFFFF;">Wisconsins TripleA Map Creator v2.0.0.2. (A very buggy and unfinished program.)</span><br>
@@ -3386,38 +3386,44 @@
 <br><span style="font-size:14px;color:FFFFFF;">And of course...</span>
 <br><span style="font-size:14px;color:FFFFFF;">George Lucas (For conjuring up Star Wars).</span><br>
 <br>
-<br><b><span style="font-size:16px;color:FFFFFF;">Changelog:</span></b><br>
-<br><span style="font-size:14px;color:FFFFFF;">Version 1.2 to 1.3 (By Frostion)</span><br>
-<br><span style="font-size:14px;color:FFFFFF;">The screen now centers on the capital at the beginning of every turn.</span><br>
-<br><span style="font-size:14px;color:FFFFFF;">Allied and war relationships now have names.</span><br>
-<br><span style="font-size:14px;color:FFFFFF;">All Wastland names corrected to Wasteland.</span><br>
-<br><span style="font-size:14px;color:FFFFFF;">New carriers may now be built with fighters on deck. Furthermore, any planetside fighters may move to the newly built carriers.</span><br>
-<br><span style="font-size:14px;color:FFFFFF;">Raised all long-range fighter cost by 5 PUs.</span><br>
-<br><span style="font-size:14px;color:FFFFFF;">All 3-move land unit cost reduced by 1 PU.</span><br>
-<br><span style="font-size:14px;color:FFFFFF;">Changed how Fortifications work.</span><br>
-<br><span style="font-size:14px;color:FFFFFF;">Version 1.1 to 1.2 (By Frostion)</span><br>
-<br><span style="font-size:14px;color:FFFFFF;">Added Low Luck to player options.</span><br>
-<br><span style="font-size:14px;color:FFFFFF;">Changed player name Neutrals to AI-Locals.</span><br>
-<br><span style="font-size:14px;color:FFFFFF;">Normalized the volume of all sound effects.</span><br>
-<br><span style="font-size:14px;color:FFFFFF;">Graphically improved planets and the galaxy.</span><br>
-<br><span style="font-size:14px;color:FFFFFF;">Enhanced the black shadow of units.</span><br>
-<br><span style="font-size:14px;color:FFFFFF;">Adjusted all the faction colors.</span><br>
-<br><span style="font-size:14px;color:FFFFFF;">Brought order to purchase window unit listing.</span><br>
-<br><span style="font-size:14px;color:FFFFFF;">Combat and non-combat is now before purchase.</span><br>
-<br><span style="font-size:14px;color:FFFFFF;">Faction starting PUs raised from 200 to 250.</span><br>
-<br><span style="font-size:14px;color:FFFFFF;">Removed the Hutt-Cartel Dunelizard-Starfighter.</span><br>
-<br><span style="font-size:14px;color:FFFFFF;">Lowered carrier capacity of Venator-SD, Krayt-Cruiser and Ubrikkian-Frigate.</span><br>
-<br><span style="font-size:14px;color:FFFFFF;">Strategic bomber units now do 3-8 PU damage.</span><br>
-<br><span style="font-size:14px;color:FFFFFF;">Anti-Air-Towers and Fortifications no longer require factory.</span><br>
-<br><span style="font-size:14px;color:FFFFFF;">Only 1 Anti-Air-Tower and 5 Fortifications may now be built in a territory.</span><br>
-<br><span style="font-size:14px;color:FFFFFF;">Adjusted the cost of most units.</span><br>
-<br><span style="font-size:14px;color:FFFFFF;">Removed spawning of pirates in the 4 teams and FFA version.</span><br>
-<br><span style="font-size:14px;color:FFFFFF;">Loss of capital now only means loss of PUs. Fighting and purchase is still possible.</span><br>
-<br><span style="font-size:14px;color:FFFFFF;">Replaced outdated codes in the XML.</span><br>
-<br><span style="font-size:14px;color:FFFFFF;">Version 1.0 to 1.1 (By Frostion)</span><br>
-<br><span style="font-size:14px;color:FFFFFF;">All short-range fighters now move 4 instead of 3. They can now participate in 2-move fleet invasions.</span><br>
+<br><b><span style="font-size:16px;color:CC6666;">Changelog:</span></b>
+<br><b><span style="font-size:14px;color:CC6666;">Version 1.3 to 1.11 (By Frostion)</span></b>
+<br><span style="font-size:12px;color:FFFFFF;">All land units now take up 1 transport capacity.</span>
+<br><span style="font-size:12px;color:FFFFFF;">All fighters now take up 1 carrier capacity.</span>
+<br><span style="font-size:12px;color:FFFFFF;">All capital ship transport capacity and carrier capacity changed.</span>
+<br><span style="font-size:12px;color:FFFFFF;">Most unit prices have changed.</span>
+<br><span style="font-size:12px;color:FFFFFF;">XML is changed to ready the map for TripleA v1.9.</span>
+<br><b><span style="font-size:14px;color:CC6666;">Version 1.2 to 1.3 (By Frostion)</span></b>
+<br><span style="font-size:12px;color:FFFFFF;">The screen now centers on the capital at the beginning of every turn.</span>
+<br><span style="font-size:12px;color:FFFFFF;">Allied and war relationships now have names.</span>
+<br><span style="font-size:12px;color:FFFFFF;">All Wastland names corrected to Wasteland.</span>
+<br><span style="font-size:12px;color:FFFFFF;">New carriers may now be built with fighters on deck. Furthermore, any planetside fighters may move to the newly built carriers.</span>
+<br><span style="font-size:12px;color:FFFFFF;">Raised all long-range fighter cost by 5 PUs.</span>
+<br><span style="font-size:12px;color:FFFFFF;">All 3-move land unit cost reduced by 1 PU.</span>
+<br><span style="font-size:12px;color:FFFFFF;">Changed how Fortifications work.</span>
+<br><b><span style="font-size:14px;color:CC6666;">Version 1.1 to 1.2 (By Frostion)</span></b>
+<br><span style="font-size:12px;color:FFFFFF;">Added Low Luck to player options.</span>
+<br><span style="font-size:12px;color:FFFFFF;">Changed player name Neutrals to AI-Locals.</span>
+<br><span style="font-size:12px;color:FFFFFF;">Normalized the volume of all sound effects.</span>
+<br><span style="font-size:12px;color:FFFFFF;">Graphically improved planets and the galaxy.</span>
+<br><span style="font-size:12px;color:FFFFFF;">Enhanced the black shadow of units.</span>
+<br><span style="font-size:12px;color:FFFFFF;">Adjusted all the faction colors.</span>
+<br><span style="font-size:12px;color:FFFFFF;">Brought order to purchase window unit listing.</span>
+<br><span style="font-size:12px;color:FFFFFF;">Combat and non-combat is now before purchase.</span>
+<br><span style="font-size:12px;color:FFFFFF;">Faction starting PUs raised from 200 to 250.</span>
+<br><span style="font-size:12px;color:FFFFFF;">Removed the Hutt-Cartel Dunelizard-Starfighter.</span>
+<br><span style="font-size:12px;color:FFFFFF;">Lowered carrier capacity of Venator-SD, Krayt-Cruiser and Ubrikkian-Frigate.</span>
+<br><span style="font-size:12px;color:FFFFFF;">Strategic bomber units now do 3-8 PU damage.</span>
+<br><span style="font-size:12px;color:FFFFFF;">Anti-Air-Towers and Fortifications no longer require factory.</span>
+<br><span style="font-size:12px;color:FFFFFF;">Only 1 Anti-Air-Tower and 5 Fortifications may now be built in a territory.</span>
+<br><span style="font-size:12px;color:FFFFFF;">Adjusted the cost of most units.</span>
+<br><span style="font-size:12px;color:FFFFFF;">Removed spawning of pirates in the 4 teams and FFA version.</span>
+<br><span style="font-size:12px;color:FFFFFF;">Loss of capital now only means loss of PUs. Fighting and purchase is still possible.</span>
+<br><span style="font-size:12px;color:FFFFFF;">Replaced outdated codes in the XML.</span>
+<br><b><span style="font-size:14px;color:CC6666;">Version 1.0 to 1.1 (By Frostion)</span></b>
+<br><span style="font-size:12px;color:FFFFFF;">All short-range fighters now move 4 instead of 3. They can now participate in 2-move fleet invasions.</span>
 <br>
-<br><b><span style="font-size:16px;color:FFFFFF;">Note:</span></b>
+<br><b><span style="font-size:16px;color:CC6666;">Note:</span></b>
 <br><span style="font-size:14px;color:FFFFFF;">Please feel free to use this map as basis for new Star Wars maps and mods. Frostion.</span><br>
 <br>
 <br>
