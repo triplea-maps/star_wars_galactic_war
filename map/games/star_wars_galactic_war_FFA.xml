@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-    <info name="Star Wars: Galactic War (FFA)" version="1.11"/>
+    <info name="Star Wars: Galactic War (FFA)" version="1.04"/>
     <loader javaClass="games.strategy.triplea.TripleA"/>
     <triplea minimumVersion="1.9"/>
     <diceSides value="6"/>
@@ -1251,7 +1251,7 @@
             <result resourceOrUnit="Proficient-Cruiser" quantity="1"/>
         </productionRule>
         <productionRule name="buyTIE-Bomber-Squadron_Imperial-Remnant">
-            <cost resource="PUs" quantity="18"/>
+            <cost resource="PUs" quantity="20"/>
             <result resourceOrUnit="TIE-Bomber-Squadron" quantity="1"/>
         </productionRule>
         <productionRule name="buyCargo-Transport_Hutt-Cartel">
@@ -1515,7 +1515,7 @@
             <result resourceOrUnit="Anti-Air-Tower" quantity="1"/>
         </productionRule>
         <productionRule name="buyArmored-Police-Units_Corellian-Security-Force">
-            <cost resource="PUs" quantity="20"/>
+            <cost resource="PUs" quantity="18"/>
             <result resourceOrUnit="Armored-Police-Units" quantity="1"/>
         </productionRule>
         <productionRule name="buyKrayt-Cruiser_Hutt-Cartel">
@@ -3387,7 +3387,7 @@
 <br><span style="font-size:14px;color:FFFFFF;">George Lucas (For conjuring up Star Wars).</span><br>
 <br>
 <br><b><span style="font-size:16px;color:CC6666;">Changelog:</span></b>
-<br><b><span style="font-size:14px;color:CC6666;">Version 1.3 to 1.11 (By Frostion)</span></b>
+<br><b><span style="font-size:14px;color:CC6666;">Version 1.3 to 1.04 (By Frostion)</span></b>
 <br><span style="font-size:12px;color:FFFFFF;">All land units now take up 1 transport capacity.</span>
 <br><span style="font-size:12px;color:FFFFFF;">All fighters now take up 1 carrier capacity.</span>
 <br><span style="font-size:12px;color:FFFFFF;">All capital ship transport capacity and carrier capacity changed.</span>
