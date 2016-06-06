@@ -3362,7 +3362,7 @@
 <br>
 <center><img src="starwars.png"/></center>
 <br><center><span style="font-size:16px;color:FFFF33;"></span><b><span style="font-size:14px;color:FFFF33;">GALACTIC WAR</span></b><span style="font-size:14px;color:FFFF33;"></span></center>
-<br><span style="font-size:14px;color:FFFF33;">It is a period of instability. Many years have passed since the death of Emperor Palpatine. Yet, the remnant forces of the Galactic Empire still seek to win back control of the galaxy. After forging a mutually beneficial dark alliance with the corporate industry and the criminal underworld, the Imperial Remnant makes its move. However, the peaceful republic is not about to fall easily. The Corellians and the Mandalorians unite with the New Republic, and of course, the Jedi Knights yet again stand willing to battle the dark and protect the light....</span>
+<br><center><span style="font-size:14px;color:FFFF33;">4 teams version</span></center>
 <br>
 <br>
 <br><b><span style="font-size:16px;color:CC6666;">Tips and rules:</span></b><br>
@@ -3640,7 +3640,7 @@
         <property name="Unplaced units live when not placed" value="true" editable="false">
             <boolean/>
         </property>
-        <property name="AI Bonus Income Percentage" value="5" editable="true">
+        <property name="AI Bonus Income Percentage" value="0" editable="true">
             <number min="-100" max="9999"/>
         </property>
         <property name="AI Bonus Income Flat Rate" value="0" editable="true">
