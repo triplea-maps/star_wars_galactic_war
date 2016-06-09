@@ -886,7 +886,7 @@
         <unit name="Henchmen"/>
         <unit name="Mounted-Henchmen"/>
         <unit name="Assassin-Droid"/>
-        <unit name="Gammorean-Guards"/>
+        <unit name="Gamorrean-Guards"/>
         <unit name="Hutt-Expedition"/>
         <unit name="Scyk-Squadron"/>
         <!-- <unit name="Dunelizard-Squadron"/> -->
@@ -943,7 +943,7 @@
         <unit name="Ewoks"/>
         <unit name="Wookiees"/>
         <unit name="Tusken-Raiders"/>
-        <unit name="Gammoreans"/>
+        <unit name="Gamorreans"/>
         <unit name="Local-Forces"/>
         <unit name="Pirates"/>
         <unit name="Pirate-Starfighters"/>
@@ -1127,7 +1127,7 @@
             <result resourceOrUnit="Etti-Patrol-Cruiser" quantity="1"/>
         </productionRule>
         <productionRule name="buyArtillery-Regiment_Mandalorians">
-            <cost resource="PUs" quantity="12"/>
+            <cost resource="PUs" quantity="11"/>
             <result resourceOrUnit="Artillery-Regiment" quantity="1"/>
         </productionRule>
         <productionRule name="buyGozanti-Cruiser_Black-Sun">
@@ -1379,7 +1379,7 @@
             <result resourceOrUnit="X-Wing-Squadron" quantity="1"/>
         </productionRule>
         <productionRule name="buyAssassin-Droid_Hutt-Cartel">
-            <cost resource="PUs" quantity="13"/>
+            <cost resource="PUs" quantity="17"/>
             <result resourceOrUnit="Assassin-Droid" quantity="1"/>
         </productionRule>
         <productionRule name="buyAnti-Air-Tower_Hutt-Cartel">
@@ -1459,7 +1459,7 @@
             <result resourceOrUnit="Strike-Cruiser" quantity="1"/>
         </productionRule>
         <productionRule name="buySpecOps-Officers_Corellian-Security-Force">
-            <cost resource="PUs" quantity="14"/>
+            <cost resource="PUs" quantity="16"/>
             <result resourceOrUnit="SpecOps-Officers" quantity="1"/>
         </productionRule>
         <productionRule name="buyFactory_Jedi-Order">
@@ -1530,9 +1530,9 @@
             <cost resource="PUs" quantity="30"/>
             <result resourceOrUnit="CC-9600-Frigate" quantity="1"/>
         </productionRule>
-        <productionRule name="buyGammorean-Guards_Hutt-Cartel">
+        <productionRule name="buyGamorrean-Guards_Hutt-Cartel">
             <cost resource="PUs" quantity="15"/>
-            <result resourceOrUnit="Gammorean-Guards" quantity="1"/>
+            <result resourceOrUnit="Gamorrean-Guards" quantity="1"/>
         </productionRule>
         <productionRule name="buyFactory_Mandalorians">
             <cost resource="PUs" quantity="75"/>
@@ -1555,7 +1555,7 @@
             <result resourceOrUnit="Bulwark-Cruiser" quantity="1"/>
         </productionRule>
         <productionRule name="buySaboteur_Black-Sun">
-            <cost resource="PUs" quantity="13"/>
+            <cost resource="PUs" quantity="15"/>
             <result resourceOrUnit="Saboteur" quantity="1"/>
         </productionRule>
         <productionRule name="buyVaksai-Squadron_Black-Sun">
@@ -1602,9 +1602,9 @@
             <cost resource="PUs" quantity="10"/>
             <result resourceOrUnit="Wookiees" quantity="1"/>
         </productionRule>
-        <productionRule name="buyGammoreans_AI-Locals">
+        <productionRule name="buyGamorreans_AI-Locals">
             <cost resource="PUs" quantity="10"/>
-            <result resourceOrUnit="Gammoreans" quantity="1"/>
+            <result resourceOrUnit="Gamorreans" quantity="1"/>
         </productionRule>
         <productionRule name="buyTusken-Raiders_AI-Locals">
             <cost resource="PUs" quantity="10"/>
@@ -1695,7 +1695,7 @@
             <frontierRules name="buyHenchmen_Hutt-Cartel"/>
             <frontierRules name="buyMounted-Henchmen_Hutt-Cartel"/>
             <frontierRules name="buyAssassin-Droid_Hutt-Cartel"/>
-            <frontierRules name="buyGammorean-Guards_Hutt-Cartel"/>
+            <frontierRules name="buyGamorrean-Guards_Hutt-Cartel"/>
             <frontierRules name="buyHutt-Expedition_Hutt-Cartel"/>
             <frontierRules name="buyScyk-Squadron_Hutt-Cartel"/>
             <!-- <frontierRules name="buyDunelizard-Squadron_Hutt-Cartel"/> -->
@@ -1777,7 +1777,7 @@
             <frontierRules name="buyPirates_AI-Locals"/>
             <frontierRules name="buyLocal-Forces_AI-Locals"/>
             <frontierRules name="buyWookiees_AI-Locals"/>
-            <frontierRules name="buyGammoreans_AI-Locals"/>
+            <frontierRules name="buyGamorreans_AI-Locals"/>
             <frontierRules name="buyTusken-Raiders_AI-Locals"/>
             <frontierRules name="buyEwoks_AI-Locals"/>
         </productionFrontier>
@@ -1852,7 +1852,7 @@
         </attachment>
         <attachment name="unitAttachment" attachTo="ARC170-Heavy-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="4"/>
-            <option name="bombingBonus" value="2"/>
+            <option name="bombingBonus" value="6"/>
             <option name="carrierCost" value="1"/>
             <option name="defense" value="3"/>
             <option name="isAir" value="true"/>
@@ -1934,9 +1934,9 @@
         </attachment>
         <attachment name="unitAttachment" attachTo="Armored-Police-Units" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillery" value="true"/>
-            <option name="attack" value="2"/>
+            <option name="attack" value="3"/>
             <option name="canBlitz" value="true"/>
-            <option name="defense" value="3"/>
+            <option name="defense" value="2"/>
             <option name="movement" value="3"/>
             <option name="transportCost" value="1"/>
         </attachment>
@@ -1958,14 +1958,13 @@
         </attachment>
         <attachment name="unitAttachment" attachTo="Artillery-Regiment" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillery" value="true"/>
-            <option name="attack" value="2"/>
+            <option name="attack" value="1"/>
             <option name="defense" value="1"/>
             <option name="movement" value="1"/>
             <option name="transportCost" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Assassin-Droid" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
-            <option name="defense" value="1"/>
             <option name="movement" value="3"/>
             <option name="transportCost" value="1"/>
         </attachment>
@@ -2231,14 +2230,14 @@
             <option name="movement" value="0"/>
             <option name="repairsUnits" value="1:Fortification"/>
         </attachment>
-        <attachment name="unitAttachment" attachTo="Gammorean-Guards" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+        <attachment name="unitAttachment" attachTo="Gamorrean-Guards" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
             <option name="defense" value="3"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="3"/>
             <option name="transportCost" value="1"/>
         </attachment>
-        <attachment name="unitAttachment" attachTo="Gammoreans" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+        <attachment name="unitAttachment" attachTo="Gamorreans" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
             <option name="defense" value="3"/>
             <option name="isInfantry" value="true"/>
@@ -2265,7 +2264,7 @@
         </attachment>
         <attachment name="unitAttachment" attachTo="HLAF-500-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
-            <option name="bombingBonus" value="2"/>
+            <option name="bombingBonus" value="6"/>
             <option name="carrierCost" value="1"/>
             <option name="defense" value="2"/>
             <option name="isAir" value="true"/>
@@ -2360,7 +2359,7 @@
         </attachment>
         <attachment name="unitAttachment" attachTo="Kimogila-Heavy-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
-            <option name="bombingBonus" value="2"/>
+            <option name="bombingBonus" value="6"/>
             <option name="carrierCost" value="1"/>
             <option name="defense" value="1"/>
             <option name="isAir" value="true"/>
@@ -2548,7 +2547,7 @@
         </attachment>
         <attachment name="unitAttachment" attachTo="Pursuer-Heavy-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
-            <option name="bombingBonus" value="2"/>
+            <option name="bombingBonus" value="6"/>
             <option name="carrierCost" value="1"/>
             <option name="defense" value="3"/>
             <option name="isAir" value="true"/>
@@ -2569,7 +2568,6 @@
             <option name="transportCost" value="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Saboteur" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-            <option name="artillery" value="true"/>
             <option name="attack" value="1"/>
             <option name="defense" value="1"/>
             <option name="movement" value="3"/>
@@ -2604,7 +2602,7 @@
         </attachment>
         <attachment name="unitAttachment" attachTo="SpecOps-Officers" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
-            <option name="defense" value="2"/>
+            <option name="defense" value="3"/>
             <option name="isInfantry" value="true"/>
             <option name="movement" value="1"/>
             <option name="transportCost" value="1"/>
@@ -2643,7 +2641,7 @@
         </attachment>
         <attachment name="unitAttachment" attachTo="Supa-Heavy-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="4"/>
-            <option name="bombingBonus" value="2"/>
+            <option name="bombingBonus" value="6"/>
             <option name="carrierCost" value="1"/>
             <option name="defense" value="2"/>
             <option name="isAir" value="true"/>
@@ -2657,7 +2655,7 @@
         </attachment>
         <attachment name="unitAttachment" attachTo="TIE-Bomber-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="4"/>
-            <option name="bombingBonus" value="2"/>
+            <option name="bombingBonus" value="6"/>
             <option name="carrierCost" value="1"/>
             <option name="defense" value="1"/>
             <option name="isAir" value="true"/>
@@ -2719,7 +2717,7 @@
         </attachment>
         <attachment name="unitAttachment" attachTo="Toscan-Heavy-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
-            <option name="bombingBonus" value="2"/>
+            <option name="bombingBonus" value="6"/>
             <option name="carrierCost" value="1"/>
             <option name="defense" value="1"/>
             <option name="isAir" value="true"/>
@@ -2819,7 +2817,7 @@
         </attachment>
         <attachment name="unitAttachment" attachTo="Y-Wing-Squadron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="4"/>
-            <option name="bombingBonus" value="2"/>
+            <option name="bombingBonus" value="6"/>
             <option name="carrierCost" value="1"/>
             <option name="defense" value="1"/>
             <option name="isAir" value="true"/>
@@ -3089,7 +3087,7 @@
         </attachment>
 
         <attachment name="supportAttachmentJedi-Knight" attachTo="Jedi-Knight" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-            <option name="unitType" value="Army-Troopers:Stormtroopers:Repulsor-Regiment:Walker-Regiment:TIE-Fighter-Squadron:TIE-Interceptor-Squadron:TIE-Bomber-Squadron:Star-Galleon:Escort-Carrier:Lancer-Frigate:Carrack-Cruiser:Strike-Cruiser:Imperial-Star-Destroyer:Army-Regiment:SpecForce-Regiment:Speeder-Regiment:Armor-Regiment:X-Wing-Squadron:A-Wing-Squadron:Y-Wing-Squadron:Corellian-Corvette:Corellian-Gunship:Nebulon-B-Frigate:Assault-Frigate:Calamari-Cruiser:Bulwark-Cruiser:Espo-Security-Officers:Espo-Combat-Troopers:Espo-Walker-Units:Espo-Repulsor-Units:IRD-Fighter-Squadron:P-Fighter-Squadron:Toscan-Heavy-Squadron:Etti-Patrol-Cruiser:Marauder-Corvette:Cutlass-Corvette:Dreadnaught-Cruiser:Victory-Star-Destroyer:Invincible-Cruiser:Temple-Security-Forces:Combat-Speeder-Group:Temple-Guards:Aethersprite-Squadron:V19-Torrent-Squadron:ARC170-Heavy-Squadron:Charger-c70-Frigate:Pelta-Frigate:Alderaanian-War-Frigate:Bothan-Assault-Cruiser:Acclamator-Assault-Ship:Venator-Star-Destroyer:Henchmen:Mounted-Henchmen:Assassin-Droid:Gammorean-Guards:Hutt-Expedition:Scyk-Squadron:Kimogila-Heavy-Squadron:Cargo-Transport:Mynock-Carrier:Fire-kraken-Corvette:Minstrel-Cruiser:Ubrikkian-Frigate:Krayt-Cruiser:Law-Enforcement-Droids:CorSec-Officers:SpecOps-Officers:Armored-Police-Units:LAF-250-Squadron:HLAF-500-Squadron:YV-929-Armed-Freighter:Action-Transport:Corellian-Heavy-Gunship:Buccaneer-Corvette:Corona-Frigate:CC-9600-Frigate:Proficient-Cruiser:Local-Criminals:Saboteur:Mercenaries:Armored-Mercenaries:Kihraxz-Squadron:Vaksai-Squadron:Supa-Heavy-Squadron:Bulk-Freighter:Container-Transport:Gozanti-Cruiser:Interceptor-Frigate:Providence-Destroyer:Aggressor-Destroyer:Mandalorian-Warriors:Mandalorian-Protectors:Artillery-Regiment:Tank-Regiment:Gladiator-Squadron:Firespray-Squadron:Pursuer-Heavy-Squadron:Space-Transport:Fleet-Carrier:Crusader-Corvette:Firestorm-Frigate:Beroya-Cruiser:Keldabe-Battleship"/>
+            <option name="unitType" value="Army-Troopers:Stormtroopers:Repulsor-Regiment:Walker-Regiment:TIE-Fighter-Squadron:TIE-Interceptor-Squadron:TIE-Bomber-Squadron:Star-Galleon:Escort-Carrier:Lancer-Frigate:Carrack-Cruiser:Strike-Cruiser:Imperial-Star-Destroyer:Army-Regiment:SpecForce-Regiment:Speeder-Regiment:Armor-Regiment:X-Wing-Squadron:A-Wing-Squadron:Y-Wing-Squadron:Corellian-Corvette:Corellian-Gunship:Nebulon-B-Frigate:Assault-Frigate:Calamari-Cruiser:Bulwark-Cruiser:Espo-Security-Officers:Espo-Combat-Troopers:Espo-Walker-Units:Espo-Repulsor-Units:IRD-Fighter-Squadron:P-Fighter-Squadron:Toscan-Heavy-Squadron:Etti-Patrol-Cruiser:Marauder-Corvette:Cutlass-Corvette:Dreadnaught-Cruiser:Victory-Star-Destroyer:Invincible-Cruiser:Temple-Security-Forces:Combat-Speeder-Group:Temple-Guards:Aethersprite-Squadron:V19-Torrent-Squadron:ARC170-Heavy-Squadron:Charger-c70-Frigate:Pelta-Frigate:Alderaanian-War-Frigate:Bothan-Assault-Cruiser:Acclamator-Assault-Ship:Venator-Star-Destroyer:Henchmen:Mounted-Henchmen:Assassin-Droid:Gamorrean-Guards:Hutt-Expedition:Scyk-Squadron:Kimogila-Heavy-Squadron:Cargo-Transport:Mynock-Carrier:Fire-kraken-Corvette:Minstrel-Cruiser:Ubrikkian-Frigate:Krayt-Cruiser:Law-Enforcement-Droids:CorSec-Officers:SpecOps-Officers:Armored-Police-Units:LAF-250-Squadron:HLAF-500-Squadron:YV-929-Armed-Freighter:Action-Transport:Corellian-Heavy-Gunship:Buccaneer-Corvette:Corona-Frigate:CC-9600-Frigate:Proficient-Cruiser:Local-Criminals:Saboteur:Mercenaries:Armored-Mercenaries:Kihraxz-Squadron:Vaksai-Squadron:Supa-Heavy-Squadron:Bulk-Freighter:Container-Transport:Gozanti-Cruiser:Interceptor-Frigate:Providence-Destroyer:Aggressor-Destroyer:Mandalorian-Warriors:Mandalorian-Protectors:Artillery-Regiment:Tank-Regiment:Gladiator-Squadron:Firespray-Squadron:Pursuer-Heavy-Squadron:Space-Transport:Fleet-Carrier:Crusader-Corvette:Firestorm-Frigate:Beroya-Cruiser:Keldabe-Battleship"/>
             <option name="faction" value="allied"/>
             <option name="side" value="offence:defence"/>
             <option name="dice" value="strength"/>
@@ -3100,24 +3098,35 @@
             <option name="players" value="Imperial-Remnant:New-Republic:Corporate-Sector-Authority:Jedi-Order:Hutt-Cartel:Corellian-Security-Force:Black-Sun:Mandalorians"/>
         </attachment>
         <attachment name="supportAttachmentAssassin-Droid" attachTo="Assassin-Droid" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-            <option name="unitType" value="Jedi-Knight:Army-Troopers:Stormtroopers:Repulsor-Regiment:Walker-Regiment:TIE-Fighter-Squadron:TIE-Interceptor-Squadron:TIE-Bomber-Squadron:Star-Galleon:Escort-Carrier:Lancer-Frigate:Carrack-Cruiser:Strike-Cruiser:Imperial-Star-Destroyer:Army-Regiment:SpecForce-Regiment:Speeder-Regiment:Armor-Regiment:X-Wing-Squadron:A-Wing-Squadron:Y-Wing-Squadron:Corellian-Corvette:Corellian-Gunship:Nebulon-B-Frigate:Assault-Frigate:Calamari-Cruiser:Bulwark-Cruiser:Espo-Security-Officers:Espo-Combat-Troopers:Espo-Walker-Units:Espo-Repulsor-Units:IRD-Fighter-Squadron:P-Fighter-Squadron:Toscan-Heavy-Squadron:Etti-Patrol-Cruiser:Marauder-Corvette:Cutlass-Corvette:Dreadnaught-Cruiser:Victory-Star-Destroyer:Invincible-Cruiser:Temple-Security-Forces:Combat-Speeder-Group:Temple-Guards:Aethersprite-Squadron:V19-Torrent-Squadron:ARC170-Heavy-Squadron:Charger-c70-Frigate:Pelta-Frigate:Alderaanian-War-Frigate:Bothan-Assault-Cruiser:Acclamator-Assault-Ship:Venator-Star-Destroyer:Henchmen:Mounted-Henchmen:Gammorean-Guards:Hutt-Expedition:Scyk-Squadron:Kimogila-Heavy-Squadron:Cargo-Transport:Mynock-Carrier:Fire-kraken-Corvette:Minstrel-Cruiser:Ubrikkian-Frigate:Krayt-Cruiser:Law-Enforcement-Droids:CorSec-Officers:SpecOps-Officers:Armored-Police-Units:LAF-250-Squadron:HLAF-500-Squadron:YV-929-Armed-Freighter:Action-Transport:Corellian-Heavy-Gunship:Buccaneer-Corvette:Corona-Frigate:CC-9600-Frigate:Proficient-Cruiser:Local-Criminals:Saboteur:Mercenaries:Armored-Mercenaries:Kihraxz-Squadron:Vaksai-Squadron:Supa-Heavy-Squadron:Bulk-Freighter:Container-Transport:Gozanti-Cruiser:Interceptor-Frigate:Providence-Destroyer:Aggressor-Destroyer:Mandalorian-Warriors:Mandalorian-Protectors:Artillery-Regiment:Tank-Regiment:Gladiator-Squadron:Firespray-Squadron:Pursuer-Heavy-Squadron:Space-Transport:Fleet-Carrier:Crusader-Corvette:Firestorm-Frigate:Beroya-Cruiser:Keldabe-Battleship"/>
+            <option name="unitType" value="Jedi-Knight:Army-Troopers:Stormtroopers:Repulsor-Regiment:Walker-Regiment:TIE-Fighter-Squadron:TIE-Interceptor-Squadron:TIE-Bomber-Squadron:Star-Galleon:Escort-Carrier:Lancer-Frigate:Carrack-Cruiser:Strike-Cruiser:Imperial-Star-Destroyer:Army-Regiment:SpecForce-Regiment:Speeder-Regiment:Armor-Regiment:X-Wing-Squadron:A-Wing-Squadron:Y-Wing-Squadron:Corellian-Corvette:Corellian-Gunship:Nebulon-B-Frigate:Assault-Frigate:Calamari-Cruiser:Bulwark-Cruiser:Espo-Security-Officers:Espo-Combat-Troopers:Espo-Walker-Units:Espo-Repulsor-Units:IRD-Fighter-Squadron:P-Fighter-Squadron:Toscan-Heavy-Squadron:Etti-Patrol-Cruiser:Marauder-Corvette:Cutlass-Corvette:Dreadnaught-Cruiser:Victory-Star-Destroyer:Invincible-Cruiser:Temple-Security-Forces:Combat-Speeder-Group:Temple-Guards:Aethersprite-Squadron:V19-Torrent-Squadron:ARC170-Heavy-Squadron:Charger-c70-Frigate:Pelta-Frigate:Alderaanian-War-Frigate:Bothan-Assault-Cruiser:Acclamator-Assault-Ship:Venator-Star-Destroyer:Henchmen:Mounted-Henchmen:Gamorrean-Guards:Hutt-Expedition:Scyk-Squadron:Kimogila-Heavy-Squadron:Cargo-Transport:Mynock-Carrier:Fire-kraken-Corvette:Minstrel-Cruiser:Ubrikkian-Frigate:Krayt-Cruiser:Law-Enforcement-Droids:CorSec-Officers:SpecOps-Officers:Armored-Police-Units:LAF-250-Squadron:HLAF-500-Squadron:YV-929-Armed-Freighter:Action-Transport:Corellian-Heavy-Gunship:Buccaneer-Corvette:Corona-Frigate:CC-9600-Frigate:Proficient-Cruiser:Local-Criminals:Saboteur:Mercenaries:Armored-Mercenaries:Kihraxz-Squadron:Vaksai-Squadron:Supa-Heavy-Squadron:Bulk-Freighter:Container-Transport:Gozanti-Cruiser:Interceptor-Frigate:Providence-Destroyer:Aggressor-Destroyer:Mandalorian-Warriors:Mandalorian-Protectors:Artillery-Regiment:Tank-Regiment:Gladiator-Squadron:Firespray-Squadron:Pursuer-Heavy-Squadron:Space-Transport:Fleet-Carrier:Crusader-Corvette:Firestorm-Frigate:Beroya-Cruiser:Keldabe-Battleship"/>
             <option name="faction" value="enemy"/>
-            <option name="side" value="offence:defence"/>
+            <option name="side" value="offence"/>
             <option name="dice" value="strength"/>
-            <option name="bonus" value="-1"/>
+            <option name="bonus" value="-3"/>
             <option name="number" value="1"/>
             <option name="bonusType" value="Assassination"/>
             <option name="impArtTech" value="false"/>
             <option name="players" value="Imperial-Remnant:New-Republic:Corporate-Sector-Authority:Jedi-Order:Hutt-Cartel:Corellian-Security-Force:Black-Sun:Mandalorians"/>
         </attachment>
         <attachment name="supportAttachmentHutt-Expedition" attachTo="Hutt-Expedition" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-            <option name="unitType" value="Assassin-Droid:Jedi-Knight:Army-Troopers:Stormtroopers:Repulsor-Regiment:Walker-Regiment:TIE-Fighter-Squadron:TIE-Interceptor-Squadron:TIE-Bomber-Squadron:Star-Galleon:Escort-Carrier:Lancer-Frigate:Carrack-Cruiser:Strike-Cruiser:Imperial-Star-Destroyer:Army-Regiment:SpecForce-Regiment:Speeder-Regiment:Armor-Regiment:X-Wing-Squadron:A-Wing-Squadron:Y-Wing-Squadron:Corellian-Corvette:Corellian-Gunship:Nebulon-B-Frigate:Assault-Frigate:Calamari-Cruiser:Bulwark-Cruiser:Espo-Security-Officers:Espo-Combat-Troopers:Espo-Walker-Units:Espo-Repulsor-Units:IRD-Fighter-Squadron:P-Fighter-Squadron:Toscan-Heavy-Squadron:Etti-Patrol-Cruiser:Marauder-Corvette:Cutlass-Corvette:Dreadnaught-Cruiser:Victory-Star-Destroyer:Invincible-Cruiser:Temple-Security-Forces:Combat-Speeder-Group:Temple-Guards:Aethersprite-Squadron:V19-Torrent-Squadron:ARC170-Heavy-Squadron:Charger-c70-Frigate:Pelta-Frigate:Alderaanian-War-Frigate:Bothan-Assault-Cruiser:Acclamator-Assault-Ship:Venator-Star-Destroyer:Henchmen:Mounted-Henchmen:Gammorean-Guards:Scyk-Squadron:Kimogila-Heavy-Squadron:Cargo-Transport:Mynock-Carrier:Fire-kraken-Corvette:Minstrel-Cruiser:Ubrikkian-Frigate:Krayt-Cruiser:Law-Enforcement-Droids:CorSec-Officers:SpecOps-Officers:Armored-Police-Units:LAF-250-Squadron:HLAF-500-Squadron:YV-929-Armed-Freighter:Action-Transport:Corellian-Heavy-Gunship:Buccaneer-Corvette:Corona-Frigate:CC-9600-Frigate:Proficient-Cruiser:Local-Criminals:Saboteur:Mercenaries:Armored-Mercenaries:Kihraxz-Squadron:Vaksai-Squadron:Supa-Heavy-Squadron:Bulk-Freighter:Container-Transport:Gozanti-Cruiser:Interceptor-Frigate:Providence-Destroyer:Aggressor-Destroyer:Mandalorian-Warriors:Mandalorian-Protectors:Artillery-Regiment:Tank-Regiment:Gladiator-Squadron:Firespray-Squadron:Pursuer-Heavy-Squadron:Space-Transport:Fleet-Carrier:Crusader-Corvette:Firestorm-Frigate:Beroya-Cruiser:Keldabe-Battleship"/>
+            <option name="unitType" value="Assassin-Droid:Jedi-Knight:Army-Troopers:Stormtroopers:Repulsor-Regiment:Walker-Regiment:TIE-Fighter-Squadron:TIE-Interceptor-Squadron:TIE-Bomber-Squadron:Star-Galleon:Escort-Carrier:Lancer-Frigate:Carrack-Cruiser:Strike-Cruiser:Imperial-Star-Destroyer:Army-Regiment:SpecForce-Regiment:Speeder-Regiment:Armor-Regiment:X-Wing-Squadron:A-Wing-Squadron:Y-Wing-Squadron:Corellian-Corvette:Corellian-Gunship:Nebulon-B-Frigate:Assault-Frigate:Calamari-Cruiser:Bulwark-Cruiser:Espo-Security-Officers:Espo-Combat-Troopers:Espo-Walker-Units:Espo-Repulsor-Units:IRD-Fighter-Squadron:P-Fighter-Squadron:Toscan-Heavy-Squadron:Etti-Patrol-Cruiser:Marauder-Corvette:Cutlass-Corvette:Dreadnaught-Cruiser:Victory-Star-Destroyer:Invincible-Cruiser:Temple-Security-Forces:Combat-Speeder-Group:Temple-Guards:Aethersprite-Squadron:V19-Torrent-Squadron:ARC170-Heavy-Squadron:Charger-c70-Frigate:Pelta-Frigate:Alderaanian-War-Frigate:Bothan-Assault-Cruiser:Acclamator-Assault-Ship:Venator-Star-Destroyer:Henchmen:Mounted-Henchmen:Gamorrean-Guards:Scyk-Squadron:Kimogila-Heavy-Squadron:Cargo-Transport:Mynock-Carrier:Fire-kraken-Corvette:Minstrel-Cruiser:Ubrikkian-Frigate:Krayt-Cruiser:Law-Enforcement-Droids:CorSec-Officers:SpecOps-Officers:Armored-Police-Units:LAF-250-Squadron:HLAF-500-Squadron:YV-929-Armed-Freighter:Action-Transport:Corellian-Heavy-Gunship:Buccaneer-Corvette:Corona-Frigate:CC-9600-Frigate:Proficient-Cruiser:Local-Criminals:Saboteur:Mercenaries:Armored-Mercenaries:Kihraxz-Squadron:Vaksai-Squadron:Supa-Heavy-Squadron:Bulk-Freighter:Container-Transport:Gozanti-Cruiser:Interceptor-Frigate:Providence-Destroyer:Aggressor-Destroyer:Mandalorian-Warriors:Mandalorian-Protectors:Artillery-Regiment:Tank-Regiment:Gladiator-Squadron:Firespray-Squadron:Pursuer-Heavy-Squadron:Space-Transport:Fleet-Carrier:Crusader-Corvette:Firestorm-Frigate:Beroya-Cruiser:Keldabe-Battleship"/>
             <option name="faction" value="allied"/>
             <option name="side" value="offence:defence"/>
             <option name="dice" value="strength"/>
             <option name="bonus" value="1"/>
             <option name="number" value="5"/>
             <option name="bonusType" value="Leadership"/>
+            <option name="impArtTech" value="false"/>
+            <option name="players" value="Imperial-Remnant:New-Republic:Corporate-Sector-Authority:Jedi-Order:Hutt-Cartel:Corellian-Security-Force:Black-Sun:Mandalorians"/>
+        </attachment>
+        <attachment name="supportAttachmentSaboteur" attachTo="Saboteur" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+            <option name="unitType" value="Hutt-Expedition:Assassin-Droid:Jedi-Knight:Army-Troopers:Stormtroopers:Repulsor-Regiment:Walker-Regiment:TIE-Fighter-Squadron:TIE-Interceptor-Squadron:TIE-Bomber-Squadron:Star-Galleon:Escort-Carrier:Lancer-Frigate:Carrack-Cruiser:Strike-Cruiser:Imperial-Star-Destroyer:Army-Regiment:SpecForce-Regiment:Speeder-Regiment:Armor-Regiment:X-Wing-Squadron:A-Wing-Squadron:Y-Wing-Squadron:Corellian-Corvette:Corellian-Gunship:Nebulon-B-Frigate:Assault-Frigate:Calamari-Cruiser:Bulwark-Cruiser:Espo-Security-Officers:Espo-Combat-Troopers:Espo-Walker-Units:Espo-Repulsor-Units:IRD-Fighter-Squadron:P-Fighter-Squadron:Toscan-Heavy-Squadron:Etti-Patrol-Cruiser:Marauder-Corvette:Cutlass-Corvette:Dreadnaught-Cruiser:Victory-Star-Destroyer:Invincible-Cruiser:Temple-Security-Forces:Combat-Speeder-Group:Temple-Guards:Aethersprite-Squadron:V19-Torrent-Squadron:ARC170-Heavy-Squadron:Charger-c70-Frigate:Pelta-Frigate:Alderaanian-War-Frigate:Bothan-Assault-Cruiser:Acclamator-Assault-Ship:Venator-Star-Destroyer:Henchmen:Mounted-Henchmen:Gamorrean-Guards:Scyk-Squadron:Kimogila-Heavy-Squadron:Cargo-Transport:Mynock-Carrier:Fire-kraken-Corvette:Minstrel-Cruiser:Ubrikkian-Frigate:Krayt-Cruiser:Law-Enforcement-Droids:CorSec-Officers:SpecOps-Officers:Armored-Police-Units:LAF-250-Squadron:HLAF-500-Squadron:YV-929-Armed-Freighter:Action-Transport:Corellian-Heavy-Gunship:Buccaneer-Corvette:Corona-Frigate:CC-9600-Frigate:Proficient-Cruiser:Local-Criminals:Mercenaries:Armored-Mercenaries:Kihraxz-Squadron:Vaksai-Squadron:Supa-Heavy-Squadron:Bulk-Freighter:Container-Transport:Gozanti-Cruiser:Interceptor-Frigate:Providence-Destroyer:Aggressor-Destroyer:Mandalorian-Warriors:Mandalorian-Protectors:Artillery-Regiment:Tank-Regiment:Gladiator-Squadron:Firespray-Squadron:Pursuer-Heavy-Squadron:Space-Transport:Fleet-Carrier:Crusader-Corvette:Firestorm-Frigate:Beroya-Cruiser:Keldabe-Battleship"/>
+            <option name="faction" value="enemy"/>
+            <option name="side" value="offence"/>
+            <option name="dice" value="strength"/>
+            <option name="bonus" value="-1"/>
+            <option name="number" value="3"/>
+            <option name="bonusType" value="Assassination"/>
             <option name="impArtTech" value="false"/>
             <option name="players" value="Imperial-Remnant:New-Republic:Corporate-Sector-Authority:Jedi-Order:Hutt-Cartel:Corellian-Security-Force:Black-Sun:Mandalorians"/>
         </attachment>
@@ -3258,7 +3267,7 @@
             <unitPlacement unitType="Pirates" territory="Iridonia Orbit A" quantity="1" owner="AI-Locals"/>
             <unitPlacement unitType="Pirate-Starfighters" territory="Iridonia Orbit A" quantity="1" owner="AI-Locals"/>
             <unitPlacement unitType="Pirates" territory="Iridonia Rainforests" quantity="1" owner="AI-Locals"/>
-            <unitPlacement unitType="Gammoreans" territory="Iridonia Rainforests" quantity="1" owner="AI-Locals"/>
+            <unitPlacement unitType="Gamorreans" territory="Iridonia Rainforests" quantity="1" owner="AI-Locals"/>
             <unitPlacement unitType="Wookiees" territory="Kashyyyk Forests" quantity="1" owner="AI-Locals"/>
             <unitPlacement unitType="Wookiees" territory="Kashyyyk Jungles" quantity="1" owner="AI-Locals"/>
             <unitPlacement unitType="Mercenaries" territory="Kessel" quantity="1" owner="Black-Sun"/>
@@ -3285,7 +3294,7 @@
             <unitPlacement unitType="Anti-Air-Tower" territory="Naboo Swamps" quantity="1" owner="Jedi-Order"/>
             <unitPlacement unitType="Henchmen" territory="Nal Hutta Barrens" quantity="1" owner="Hutt-Cartel"/>
             <unitPlacement unitType="Anti-Air-Tower" territory="Nal Hutta Barrens" quantity="1" owner="Hutt-Cartel"/>
-            <unitPlacement unitType="Gammorean-Guards" territory="Nal Hutta Marshlands" quantity="2" owner="Hutt-Cartel"/>
+            <unitPlacement unitType="Gamorrean-Guards" territory="Nal Hutta Marshlands" quantity="2" owner="Hutt-Cartel"/>
             <unitPlacement unitType="Anti-Air-Tower" territory="Nal Hutta Marshlands" quantity="1" owner="Hutt-Cartel"/>
             <unitPlacement unitType="Factory" territory="Nal Hutta Marshlands" quantity="1" owner="Hutt-Cartel"/>
             <unitPlacement unitType="Minstrel-Cruiser" territory="Nal Hutta Orbit B" quantity="1" owner="Hutt-Cartel"/>
@@ -3297,7 +3306,7 @@
             <unitPlacement unitType="Factory" territory="Nar Shaddaa North" quantity="1" owner="Hutt-Cartel"/>
             <unitPlacement unitType="Wookiees" territory="Nar Shaddaa South" quantity="1" owner="AI-Locals"/>
             <unitPlacement unitType="Local-Forces" territory="Nar Shaddaa South" quantity="1" owner="AI-Locals"/>
-            <unitPlacement unitType="Gammoreans" territory="Nar Shaddaa South" quantity="1" owner="AI-Locals"/>
+            <unitPlacement unitType="Gamorreans" territory="Nar Shaddaa South" quantity="1" owner="AI-Locals"/>
             <unitPlacement unitType="Local-Forces" territory="Rodia Jungles" quantity="1" owner="AI-Locals"/>
             <unitPlacement unitType="Local-Forces" territory="Rodia Swamps" quantity="1" owner="AI-Locals"/>
             <unitPlacement unitType="Local-Forces" territory="Sullust Caves" quantity="1" owner="AI-Locals"/>
@@ -3403,7 +3412,9 @@
 <br><span style="font-size:14px;color:FFFFFF;">Fighters are either short-range (4 move) or long-range (10 move).</span><br>
 <br><span style="font-size:14px;color:FFFFFF;">Strategic Bombardment done by heavy fighters can be escorted by other fighters.</span><br>
 <br><span style="font-size:14px;color:FFFFFF;">Strategic Bombardment can be intercepted by defending fighters.</span><br>
-<br><span style="font-size:14px;color:FFFFFF;">Interception battles only last 1 round.</span><br>
+<br><span style="font-size:14px;color:FFFFFF;">Interception air battles only last 1 round.</span><br>
+<br><span style="font-size:14px;color:FFFFFF;">Space battles only last 5 rounds.</span><br>
+<br><span style="font-size:14px;color:FFFFFF;">Land battles only last 5 rounds.</span><br>
 <br><span style="font-size:14px;color:FFFFFF;">This map works best with the setting View - Show Map Blends - Off.</span><br>
 <br>
 <br><b><span style="font-size:16px;color:CC6666;">Map by:</span></b><br>
@@ -3421,7 +3432,8 @@
 <br><b><span style="font-size:16px;color:CC6666;">Changelog:</span></b>
 <br><b><span style="font-size:14px;color:CC6666;">Version 1.3 to 1.04 (By Frostion)</span></b>
 <br><span style="font-size:12px;color:FFFFFF;">Color adjusted some unit pictures.</span>
-<br><span style="font-size:12px;color:FFFFFF;">Jedi-Knight, Assassin-Droid and Hutt-Expedition units now have a support attachments.</span>
+<br><span style="font-size:12px;color:FFFFFF;">Jedi-Knight, Assassin-Droid, Hutt-Expedition and Saboteur units now have a support attachments.</span>
+<br><span style="font-size:12px;color:FFFFFF;">Strategic bomber units now do 7-12 PU damage.</span>
 <br><span style="font-size:12px;color:FFFFFF;">All land units now take up 1 transport capacity.</span>
 <br><span style="font-size:12px;color:FFFFFF;">All fighters now take up 1 carrier capacity.</span>
 <br><span style="font-size:12px;color:FFFFFF;">All capital ship transport capacity and carrier capacity changed.</span>
@@ -3559,8 +3571,6 @@
         </property>
         <property name="New-Republic bid" value="0" editable="false">
         </property>
-        <property name="Air Battle Rounds" value="1" editable="false">
-        </property>
         <property name="Attacker Retreat Planes" value="true" editable="false">
             <boolean/>
         </property>
@@ -3690,6 +3700,12 @@
         </property>
         <property name="Low Luck" value="false" editable="true">
             <boolean/>
+        </property>
+        <property name="Land Battle Rounds" value="5" editable="false">
+        </property>
+        <property name="Sea Battle Rounds" value="5" editable="false">
+        </property>
+        <property name="Air Battle Rounds" value="1" editable="false">
         </property>
     </propertyList>
 
