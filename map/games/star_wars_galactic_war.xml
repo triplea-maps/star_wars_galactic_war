@@ -3618,7 +3618,7 @@
         <property name="Multiple AA Per Territory" value="true" editable="false">
             <boolean/>
         </property>
-        <property name="Naval Bombard Casualties Return Fire Restricted" value="false" editable="false">
+        <property name="Naval Bombard Casualties Return Fire" value="false" editable="false">
             <boolean/>
         </property>
         <property name="Corporate-Sector-Authority bid" value="0" editable="false">
