@@ -3134,7 +3134,7 @@
         </attachment>
 
         <attachment name="conditionAttachmentRemoveLocalsPUsEveryTurn" attachTo="AI-Locals" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="1-+"/>
+            <option name="rounds" value="1-+"/>
         </attachment>
         <attachment name="triggerAttachment_AI-Locals-have-no-PUs" attachTo="AI-Locals" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentRemoveLocalsPUsEveryTurn"/>
@@ -3145,7 +3145,7 @@
 
         <attachment name="conditionAttachment_There_be_pirates" attachTo="AI-Locals" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="alliedOwnershipTerritories" value="1:Iridonia Acid Plains"/>
-            <option name="turns" value="3:6:9:12:15:18:21:24:27:30:33:36:39:42:45:48:51:54:57:60:63:66:69:72:75:78:81:84:87:90:93:96:99"/>
+            <option name="rounds" value="3:6:9:12:15:18:21:24:27:30:33:36:39:42:45:48:51:54:57:60:63:66:69:72:75:78:81:84:87:90:93:96:99"/>
         </attachment>
         <attachment name="triggerAttachment_There_be_pirates" attachTo="AI-Locals" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachment_There_be_pirates"/>
@@ -3641,13 +3641,13 @@
         <property name="Battles May Be Preceeded By Air Battles" value="false" editable="false">
             <boolean/>
         </property>
-        <property name="Units repair at end of round" value="false" editable="false">
+        <property name="Units Repair Hits End Turn" value="false" editable="false">
             <boolean/>
         </property>
         <property name="AA50 Tech Model" value="false" editable="false">
             <boolean/>
         </property>
-        <property name="Units repair at beginning of round" value="true" editable="false">
+        <property name="Units Repair Hits Start Turn" value="true" editable="false">
             <boolean/>
         </property>
         <property name="Air Battle Defenders Can Retreat" value="true" editable="false">
