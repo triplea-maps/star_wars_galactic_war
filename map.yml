@@ -1,0 +1,5 @@
+map_name: star_wars_galactic_war
+games:
+- {game_name: 'Star Wars: Galactic War (4 teams)', file_name: star_wars_galactic_war_4teams.xml}
+- {game_name: 'Star Wars: Galactic War (FFA)', file_name: star_wars_galactic_war_FFA.xml}
+- {game_name: 'Star Wars: Galactic War', file_name: star_wars_galactic_war.xml}
